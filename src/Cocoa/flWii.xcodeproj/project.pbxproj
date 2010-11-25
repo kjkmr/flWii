@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		E9217A4A129E5B1F0067AB77 /* WiiRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9217A49129E5B1F0067AB77 /* WiiRemote.framework */; };
+		E9D2242A129E5A5300E6997A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D22429129E5A5300E6997A /* main.m */; };
+		E9D22434129E5A6600E6997A /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D2242E129E5A6600E6997A /* AppController.m */; };
+		E9D22435129E5A6600E6997A /* SocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D22431129E5A6600E6997A /* SocketServer.m */; };
+		E9D22436129E5A6600E6997A /* WiiRemoteController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D22433129E5A6600E6997A /* WiiRemoteController.m */; };
+		E9D22439129E5A6B00E6997A /* endian.c in Sources */ = {isa = PBXBuildFile; fileRef = E9D22437129E5A6B00E6997A /* endian.c */; };
+		E9E937071298FC4100E8A59A /* Number1.png in Resources */ = {isa = PBXBuildFile; fileRef = E9E937001298FC4100E8A59A /* Number1.png */; };
+		E9E937081298FC4100E8A59A /* Number2.png in Resources */ = {isa = PBXBuildFile; fileRef = E9E937011298FC4100E8A59A /* Number2.png */; };
+		E9E937091298FC4100E8A59A /* Number3.png in Resources */ = {isa = PBXBuildFile; fileRef = E9E937021298FC4100E8A59A /* Number3.png */; };
+		E9E9370A1298FC4100E8A59A /* Number4.png in Resources */ = {isa = PBXBuildFile; fileRef = E9E937031298FC4100E8A59A /* Number4.png */; };
+		E9E9370B1298FC4100E8A59A /* StateClassic.png in Resources */ = {isa = PBXBuildFile; fileRef = E9E937041298FC4100E8A59A /* StateClassic.png */; };
+		E9E9370C1298FC4100E8A59A /* StateNunchuk.png in Resources */ = {isa = PBXBuildFile; fileRef = E9E937051298FC4100E8A59A /* StateNunchuk.png */; };
+		E9E9370D1298FC4100E8A59A /* StateWii.png in Resources */ = {isa = PBXBuildFile; fileRef = E9E937061298FC4100E8A59A /* StateWii.png */; };
+		E9E9374E129913B400E8A59A /* StateBalanceBoard.png in Resources */ = {isa = PBXBuildFile; fileRef = E9E9374D129913B400E8A59A /* StateBalanceBoard.png */; };
+		E9E937541299167900E8A59A /* flWii.icns in Resources */ = {isa = PBXBuildFile; fileRef = E9E937531299167900E8A59A /* flWii.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* flWii_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = flWii_Prefix.pch; path = src/flWii_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* flWii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flWii.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9217A49129E5B1F0067AB77 /* WiiRemote.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WiiRemote.framework; path = Frameworks/WiiRemote.framework; sourceTree = "<group>"; };
+		E9D22429129E5A5300E6997A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9D2242D129E5A6600E6997A /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = src/AppController.h; sourceTree = "<group>"; };
+		E9D2242E129E5A6600E6997A /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = src/AppController.m; sourceTree = "<group>"; };
+		E9D2242F129E5A6600E6997A /* flWii_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = flWii_Prefix.pch; path = src/flWii_Prefix.pch; sourceTree = "<group>"; };
+		E9D22430129E5A6600E6997A /* SocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketServer.h; path = src/SocketServer.h; sourceTree = "<group>"; };
+		E9D22431129E5A6600E6997A /* SocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocketServer.m; path = src/SocketServer.m; sourceTree = "<group>"; };
+		E9D22432129E5A6600E6997A /* WiiRemoteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WiiRemoteController.h; path = src/WiiRemoteController.h; sourceTree = "<group>"; };
+		E9D22433129E5A6600E6997A /* WiiRemoteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WiiRemoteController.m; path = src/WiiRemoteController.m; sourceTree = "<group>"; };
+		E9D22437129E5A6B00E6997A /* endian.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = endian.c; path = src/endian.c; sourceTree = "<group>"; };
+		E9D22438129E5A6B00E6997A /* endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = endian.h; path = src/endian.h; sourceTree = "<group>"; };
+		E9E937001298FC4100E8A59A /* Number1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Number1.png; path = Resources/Number1.png; sourceTree = "<group>"; };
+		E9E937011298FC4100E8A59A /* Number2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Number2.png; path = Resources/Number2.png; sourceTree = "<group>"; };
+		E9E937021298FC4100E8A59A /* Number3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Number3.png; path = Resources/Number3.png; sourceTree = "<group>"; };
+		E9E937031298FC4100E8A59A /* Number4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Number4.png; path = Resources/Number4.png; sourceTree = "<group>"; };
+		E9E937041298FC4100E8A59A /* StateClassic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StateClassic.png; path = Resources/StateClassic.png; sourceTree = "<group>"; };
+		E9E937051298FC4100E8A59A /* StateNunchuk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StateNunchuk.png; path = Resources/StateNunchuk.png; sourceTree = "<group>"; };
+		E9E937061298FC4100E8A59A /* StateWii.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StateWii.png; path = Resources/StateWii.png; sourceTree = "<group>"; };
+		E9E9374D129913B400E8A59A /* StateBalanceBoard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StateBalanceBoard.png; path = Resources/StateBalanceBoard.png; sourceTree = "<group>"; };
+		E9E937531299167900E8A59A /* flWii.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = flWii.icns; path = Resources/flWii.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				E9217A4A129E5B1F0067AB77 /* WiiRemote.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E9D2242D129E5A6600E6997A /* AppController.h */,
+				E9D2242E129E5A6600E6997A /* AppController.m */,
+				E9D2242F129E5A6600E6997A /* flWii_Prefix.pch */,
+				E9D22430129E5A6600E6997A /* SocketServer.h */,
+				E9D22431129E5A6600E6997A /* SocketServer.m */,
+				E9D22432129E5A6600E6997A /* WiiRemoteController.h */,
+				E9D22433129E5A6600E6997A /* WiiRemoteController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* flWii.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* flWii */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = flWii;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E9D22437129E5A6B00E6997A /* endian.c */,
+				E9D22438129E5A6B00E6997A /* endian.h */,
+				E9D22429129E5A5300E6997A /* main.m */,
+				32CA4F630368D1EE00C91783 /* flWii_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9E937531299167900E8A59A /* flWii.icns */,
+				E9E9374D129913B400E8A59A /* StateBalanceBoard.png */,
+				E9E937001298FC4100E8A59A /* Number1.png */,
+				E9E937011298FC4100E8A59A /* Number2.png */,
+				E9E937021298FC4100E8A59A /* Number3.png */,
+				E9E937031298FC4100E8A59A /* Number4.png */,
+				E9E937041298FC4100E8A59A /* StateClassic.png */,
+				E9E937051298FC4100E8A59A /* StateNunchuk.png */,
+				E9E937061298FC4100E8A59A /* StateWii.png */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9217A49129E5B1F0067AB77 /* WiiRemote.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* flWii */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "flWii" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flWii;
+			productInstallPath = "$(HOME)/Applications";
+			productName = flWii;
+			productReference = 8D1107320486CEB800E47090 /* flWii.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = kimulabo;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "flWii" */;
+			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* flWii */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* flWii */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				E9E937071298FC4100E8A59A /* Number1.png in Resources */,
+				E9E937081298FC4100E8A59A /* Number2.png in Resources */,
+				E9E937091298FC4100E8A59A /* Number3.png in Resources */,
+				E9E9370A1298FC4100E8A59A /* Number4.png in Resources */,
+				E9E9370B1298FC4100E8A59A /* StateClassic.png in Resources */,
+				E9E9370C1298FC4100E8A59A /* StateNunchuk.png in Resources */,
+				E9E9370D1298FC4100E8A59A /* StateWii.png in Resources */,
+				E9E9374E129913B400E8A59A /* StateBalanceBoard.png in Resources */,
+				E9E937541299167900E8A59A /* flWii.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D2242A129E5A5300E6997A /* main.m in Sources */,
+				E9D22434129E5A6600E6997A /* AppController.m in Sources */,
+				E9D22435129E5A6600E6997A /* SocketServer.m in Sources */,
+				E9D22436129E5A6600E6997A /* WiiRemoteController.m in Sources */,
+				E9D22439129E5A6B00E6997A /* endian.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = flWii_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = flWii;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = flWii_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = flWii;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "flWii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "flWii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

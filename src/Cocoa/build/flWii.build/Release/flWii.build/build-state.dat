@@ -1,0 +1,2393 @@
+TflWii
+v7
+r0
+t312367918.376444
+cCheck dependencies
+cProcessInfoPlistFile /Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/Info.plist Info.plist
+cStripNIB /Users/kojikimura/git/flWii/Cocoa/English.lproj/MainMenu.nib
+cCopyStringsFile /Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCpResource build/Release/flWii.app/Contents/Resources/Number1.png Resources/Number1.png
+cCpResource build/Release/flWii.app/Contents/Resources/Number2.png Resources/Number2.png
+cCpResource build/Release/flWii.app/Contents/Resources/Number3.png Resources/Number3.png
+cCpResource build/Release/flWii.app/Contents/Resources/Number4.png Resources/Number4.png
+cCpResource build/Release/flWii.app/Contents/Resources/StateClassic.png Resources/StateClassic.png
+cCpResource build/Release/flWii.app/Contents/Resources/StateNunchuk.png Resources/StateNunchuk.png
+cCpResource build/Release/flWii.app/Contents/Resources/StateWii.png Resources/StateWii.png
+cCpResource build/Release/flWii.app/Contents/Resources/StateBalanceBoard.png Resources/StateBalanceBoard.png
+cCpResource build/Release/flWii.app/Contents/Resources/flWii.icns Resources/flWii.icns
+cProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-bnbhxxdjmzgtnygeuarpuclukutm/flWii_Prefix.pch.gch flWii_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-bacsksxsynxjhqcoodmlfitlfncb/flWii_Prefix.pch.gch flWii_Prefix.pch normal x86_64 c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-cuxujivlkmyxdmcmcimgsfqnysap/flWii_Prefix.pch.gch flWii_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-edszctgpwfcczidnwpgjnehrxxvj/flWii_Prefix.pch.gch flWii_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-carejavsznnhjifocbcenowwlhnx/flWii_Prefix.pch.gch flWii_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-gynpfwrstivofbeoecxhaauuwqxk/flWii_Prefix.pch.gch flWii_Prefix.pch normal ppc c com.apple.compilers.gcc.4_2
+cCompileC build/flWii.build/Release/flWii.build/Objects-normal/x86_64/main.o /Users/kojikimura/git/flWii/Cocoa/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/flWii.build/Release/flWii.build/Objects-normal/x86_64/AppController.o /Users/kojikimura/git/flWii/Cocoa/src/AppController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/flWii.build/Release/flWii.build/Objects-normal/x86_64/SocketServer.o /Users/kojikimura/git/flWii/Cocoa/src/SocketServer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/flWii.build/Release/flWii.build/Objects-normal/x86_64/WiiRemoteController.o /Users/kojikimura/git/flWii/Cocoa/src/WiiRemoteController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/flWii.build/Release/flWii.build/Objects-normal/x86_64/endian.o /Users/kojikimura/git/flWii/Cocoa/src/endian.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/flWii.build/Release/flWii.build/Objects-normal/i386/main.o /Users/kojikimura/git/flWii/Cocoa/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/flWii.build/Release/flWii.build/Objects-normal/i386/AppController.o /Users/kojikimura/git/flWii/Cocoa/src/AppController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/flWii.build/Release/flWii.build/Objects-normal/i386/SocketServer.o /Users/kojikimura/git/flWii/Cocoa/src/SocketServer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii normal x86_64
+cCompileC build/flWii.build/Release/flWii.build/Objects-normal/i386/WiiRemoteController.o /Users/kojikimura/git/flWii/Cocoa/src/WiiRemoteController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/flWii.build/Release/flWii.build/Objects-normal/i386/endian.o /Users/kojikimura/git/flWii/Cocoa/src/endian.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/flWii.build/Release/flWii.build/Objects-normal/ppc/main.o /Users/kojikimura/git/flWii/Cocoa/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cLd /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii normal i386
+cCompileC build/flWii.build/Release/flWii.build/Objects-normal/ppc/AppController.o /Users/kojikimura/git/flWii/Cocoa/src/AppController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/flWii.build/Release/flWii.build/Objects-normal/ppc/SocketServer.o /Users/kojikimura/git/flWii/Cocoa/src/SocketServer.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/flWii.build/Release/flWii.build/Objects-normal/ppc/WiiRemoteController.o /Users/kojikimura/git/flWii/Cocoa/src/WiiRemoteController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/flWii.build/Release/flWii.build/Objects-normal/ppc/endian.o /Users/kojikimura/git/flWii/Cocoa/src/endian.c normal ppc c com.apple.compilers.gcc.4_2
+cLd /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii normal ppc
+cCreateUniversalBinary /Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/MacOS/flWii normal "x86_64 i386 ppc"
+cGenerateDSYMFile /Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app.dSYM /Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/MacOS/flWii
+cTouch /Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004C39931F00000000000000EE
+t1278841631
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/WiiRemote.framework/Headers/WiiRemote.h
+c000000004CD0FD120000000000001A99
+t1288764690
+s6809
+
+N/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/WiiRemote.framework/Headers/WiiRemoteDiscovery.h
+c000000004CD0FD12000000000000034C
+t1288764690
+s844
+
+N/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/WiiRemote.framework/WiiRemote
+c000000004CD0FD190000000000020D54
+t1288764697
+s134484
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers/objc/IOBluetoothDevice.h
+c000000004864C901000000000000B36A
+t1214564609
+s45930
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers/objc/IOBluetoothDeviceInquiry.h
+c000000004864C90200000000000035D5
+t1214564610
+s13781
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/IOBluetooth.framework/Headers/objc/IOBluetoothL2CAPChannel.h
+c000000004864C9010000000000004739
+t1214564609
+s18233
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/net/if.h
+c0000000047E883BC00000000000033C4
+t1206420412
+s13252
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/netinet/in.h
+c0000000047E883C30000000000005346
+t1206420419
+s21318
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/signal.h
+c0000000047BA993100000000000014F0
+t1203411249
+s5360
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/string.h
+c0000000047BA99320000000000001731
+t1203411250
+s5937
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.h
+c000000004CE8E53F0000000000000403
+t1290331455
+s1027
+i<Cocoa/Cocoa.h>
+i"WiiRemoteController.h"
+i"SocketServer.h"
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m
+c000000004CEBF5DD0000000000000C4C
+t1290532317
+s3148
+i"AppController.h"
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/English.lproj/InfoPlist.strings
+c000000004CE9066600000000000000B6
+t1290339942
+s182
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/English.lproj/MainMenu.nib
+c000000004CEB0D040000000000000088
+t1290472708
+s136
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/Number1.png
+c000000004CE8E2F300000000000000E4
+t1290330867
+s228
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/Number2.png
+c000000004CE8E2F600000000000001DE
+t1290330870
+s478
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/Number3.png
+c000000004CE8E2FA0000000000000214
+t1290330874
+s532
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/Number4.png
+c000000004CE8E2FD0000000000000177
+t1290330877
+s375
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/SocketServer.h
+c000000004CEDDF640000000000000167
+t1290657636
+s359
+i<Cocoa/Cocoa.h>
+i<netinet/in.h>
+i<net/if.h>
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/SocketServer.m
+c000000004CEDDFA60000000000001110
+t1290657702
+s4368
+i"SocketServer.h"
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/StateBalanceBoard.png
+c000000004CE8DC6B0000000000000AB2
+t1290329195
+s2738
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/StateClassic.png
+c000000004CE8DC700000000000000E4C
+t1290329200
+s3660
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/StateNunchuk.png
+c000000004CE8DC740000000000000B9E
+t1290329204
+s2974
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/StateWii.png
+c000000004CE8DC7C00000000000005F4
+t1290329212
+s1524
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.h
+c000000004CEB37DC00000000000008D7
+t1290483676
+s2263
+i<Cocoa/Cocoa.h>
+i<WiiRemote/WiiRemote.h>
+i<WiiRemote/WiiRemoteDiscovery.h>
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m
+c000000004CEB3BE8000000000000316B
+t1290484712
+s12651
+i"WiiRemoteController.h"
+i"endian.h"
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app
+t1290657718
+s102
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app.dSYM
+t1290657718
+s102
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Info.plist
+t1290337792
+s812
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/MacOS/flWii
+t1290657718
+s116388
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/PkgInfo
+t1290337792
+s8
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1290339958
+s182
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources/English.lproj/MainMenu.nib
+t1290474997
+s17391
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources/Icon256.png
+t1290337792
+s30803
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources/Number1.png
+t1290337792
+s228
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources/Number2.png
+t1290337792
+s478
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources/Number3.png
+t1290337792
+s532
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources/Number4.png
+t1290337792
+s375
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources/StateBalanceBoard.png
+t1290337792
+s2738
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources/StateClassic.png
+t1290337792
+s3660
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources/StateNunchuk.png
+t1290337792
+s2974
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources/StateWii.png
+t1290337792
+s1524
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources/flWii.icns
+t1290337792
+s40051
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/AppController.o
+t1290657712
+s32364
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/SocketServer.o
+t1290657711
+s17752
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/WiiRemoteController.o
+t1290485924
+s43880
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/endian.o
+t1289661870
+s1880
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii
+t1290657712
+s35416
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii.LinkFileList
+c000000004CDEADAB0000000000000261
+t1289661867
+s609
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/main.o
+t1290483140
+s5192
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/AppController.o
+t1290657718
+s33300
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/SocketServer.o
+t1290657718
+s20116
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/WiiRemoteController.o
+t1290485925
+s47000
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/endian.o
+t1289661870
+s1944
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii
+t1290657718
+s34468
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii.LinkFileList
+c000000004CDEADAB000000000000025C
+t1289661867
+s604
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/main.o
+t1290483140
+s5312
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/AppController.o
+t1290657705
+s39944
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/SocketServer.o
+t1290657705
+s25436
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/WiiRemoteController.o
+t1290485924
+s62568
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/endian.o
+t1290339344
+s2436
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii
+t1290657711
+s40672
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii.LinkFileList
+c000000004CE90406000000000000026B
+t1290339334
+s619
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/main.o
+t1290483139
+s5664
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/design/Icon256.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c
+c000000004CDEAC470000000000000190
+t1289661511
+s400
+i"endian.h"
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.h
+c000000004CDEAC4D00000000000000A5
+t1289661517
+s165
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/flWii.icns
+c000000004CE8DF8E0000000000009C73
+t1290329998
+s40051
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/flWii_Prefix.pch
+c000000004CD1D91F000000000000008D
+t1288821023
+s141
+i<Cocoa/Cocoa.h>
+
+N/Users/kojikimura/Desktop/Cocoa Application/flWii/main.m
+c000000004CEB31280000000000000184
+t1290481960
+s388
+i<Cocoa/Cocoa.h>
+i<signal.h>
+
+N/Users/kojikimura/git/flWii/AppController.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/kojikimura/git/flWii/Cocoa/English.lproj/InfoPlist.strings
+c000000004CE9066600000000000000B6
+t1290339942
+s182
+
+N/Users/kojikimura/git/flWii/Cocoa/English.lproj/MainMenu.nib
+c000000004CEB0D040000000000000088
+t1290472708
+s136
+
+N/Users/kojikimura/git/flWii/Cocoa/Frameworks/WiiRemote.framework/Headers/Mii.h
+c000000004CD0FD1200000000000014E6
+t1288764690
+s5350
+
+N/Users/kojikimura/git/flWii/Cocoa/Frameworks/WiiRemote.framework/Headers/WiiRemote.h
+c000000004CD0FD120000000000001A99
+t1288764690
+s6809
+i"Mii.h"
+i<Cocoa/Cocoa.h>
+i<IOBluetooth/objc/IOBluetoothDevice.h>
+i<IOBluetooth/objc/IOBluetoothL2CAPChannel.h>
+
+N/Users/kojikimura/git/flWii/Cocoa/Frameworks/WiiRemote.framework/Headers/WiiRemoteDiscovery.h
+c000000004CD0FD12000000000000034C
+t1288764690
+s844
+i<Cocoa/Cocoa.h>
+i<IOBluetooth/objc/IOBluetoothDeviceInquiry.h>
+i"WiiRemote.h"
+
+N/Users/kojikimura/git/flWii/Cocoa/Frameworks/WiiRemote.framework/WiiRemote
+c000000004CD0FD190000000000020D54
+t1288764697
+s134484
+
+N/Users/kojikimura/git/flWii/Cocoa/Resources/Number1.png
+c000000004CE8E2F300000000000000E4
+t1290330867
+s228
+
+N/Users/kojikimura/git/flWii/Cocoa/Resources/Number2.png
+c000000004CE8E2F600000000000001DE
+t1290330870
+s478
+
+N/Users/kojikimura/git/flWii/Cocoa/Resources/Number3.png
+c000000004CE8E2FA0000000000000214
+t1290330874
+s532
+
+N/Users/kojikimura/git/flWii/Cocoa/Resources/Number4.png
+c000000004CE8E2FD0000000000000177
+t1290330877
+s375
+
+N/Users/kojikimura/git/flWii/Cocoa/Resources/StateBalanceBoard.png
+c000000004CE8DC6B0000000000000AB2
+t1290329195
+s2738
+
+N/Users/kojikimura/git/flWii/Cocoa/Resources/StateClassic.png
+c000000004CE8DC700000000000000E4C
+t1290329200
+s3660
+
+N/Users/kojikimura/git/flWii/Cocoa/Resources/StateNunchuk.png
+c000000004CE8DC740000000000000B9E
+t1290329204
+s2974
+
+N/Users/kojikimura/git/flWii/Cocoa/Resources/StateWii.png
+c000000004CE8DC7C00000000000005F4
+t1290329212
+s1524
+
+N/Users/kojikimura/git/flWii/Cocoa/Resources/flWii.icns
+c000000004CE8DF8E0000000000009C73
+t1290329998
+s40051
+
+N/Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app
+t1290675118
+s102
+
+N/Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app.dSYM
+t1290675118
+s102
+
+N/Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/Info.plist
+t1290337792
+s812
+
+N/Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/MacOS/flWii
+t1290675118
+s116244
+
+N/Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/PkgInfo
+t1290337792
+s8
+
+N/Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1290339958
+s182
+
+N/Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/Resources/English.lproj/MainMenu.nib
+t1290474997
+s17391
+
+N/Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/Resources/Number1.png
+t1290337792
+s228
+
+N/Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/Resources/Number2.png
+t1290337792
+s478
+
+N/Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/Resources/Number3.png
+t1290337792
+s532
+
+N/Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/Resources/Number4.png
+t1290337792
+s375
+
+N/Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/Resources/StateBalanceBoard.png
+t1290337792
+s2738
+
+N/Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/Resources/StateClassic.png
+t1290337792
+s3660
+
+N/Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/Resources/StateNunchuk.png
+t1290337792
+s2974
+
+N/Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/Resources/StateWii.png
+t1290337792
+s1524
+
+N/Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/Resources/flWii.icns
+t1290337792
+s40051
+
+N/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/i386/AppController.o
+t1290675115
+s32336
+
+N/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/i386/SocketServer.o
+t1290675116
+s17728
+
+N/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/i386/WiiRemoteController.o
+t1290675117
+s43816
+
+N/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/i386/endian.o
+t1290675116
+s2052
+
+N/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii
+t1290675117
+s35272
+
+N/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii.LinkFileList
+c000000004CEE23A10000000000000211
+t1290675105
+s529
+
+N/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/i386/main.o
+t1290675115
+s5160
+
+N/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/ppc/AppController.o
+t1290675117
+s33272
+
+N/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/ppc/SocketServer.o
+t1290675117
+s20092
+
+N/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/ppc/WiiRemoteController.o
+t1290675118
+s46936
+
+N/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/ppc/endian.o
+t1290675117
+s2116
+
+N/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii
+t1290675118
+s34324
+
+N/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii.LinkFileList
+c000000004CEE23A1000000000000020C
+t1290675105
+s524
+
+N/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/ppc/main.o
+t1290675117
+s5280
+
+N/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/AppController.o
+t1290675115
+s39912
+
+N/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/SocketServer.o
+t1290675115
+s25412
+
+N/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/WiiRemoteController.o
+t1290675115
+s62504
+
+N/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/endian.o
+t1290675115
+s2604
+
+N/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii
+t1290675116
+s40520
+
+N/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii.LinkFileList
+c000000004CEE23A1000000000000021B
+t1290675105
+s539
+
+N/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/main.o
+t1290675114
+s5632
+
+N/Users/kojikimura/git/flWii/Cocoa/flWii_Prefix.pch
+c000000004CD1D91F000000000000008D
+t1288821023
+s141
+i<Cocoa/Cocoa.h>
+
+N/Users/kojikimura/git/flWii/Cocoa/main.m
+c000000004CEE23A00000000000000184
+t1290675104
+s388
+i<Cocoa/Cocoa.h>
+i<signal.h>
+
+N/Users/kojikimura/git/flWii/Cocoa/src/AppController.h
+c000000004CE8E53F0000000000000403
+t1290331455
+s1027
+i<Cocoa/Cocoa.h>
+i"WiiRemoteController.h"
+i"SocketServer.h"
+
+N/Users/kojikimura/git/flWii/Cocoa/src/AppController.m
+c000000004CEE1E200000000000000C53
+t1290673696
+s3155
+i"AppController.h"
+
+N/Users/kojikimura/git/flWii/Cocoa/src/SocketServer.h
+c000000004CEDDF640000000000000167
+t1290657636
+s359
+i<Cocoa/Cocoa.h>
+i<netinet/in.h>
+i<net/if.h>
+
+N/Users/kojikimura/git/flWii/Cocoa/src/SocketServer.m
+c000000004CEDDFA60000000000001110
+t1290657702
+s4368
+i"SocketServer.h"
+
+N/Users/kojikimura/git/flWii/Cocoa/src/WiiRemoteController.h
+c000000004CEB37DC00000000000008D7
+t1290483676
+s2263
+i<Cocoa/Cocoa.h>
+i<WiiRemote/WiiRemote.h>
+i<WiiRemote/WiiRemoteDiscovery.h>
+
+N/Users/kojikimura/git/flWii/Cocoa/src/WiiRemoteController.m
+c000000004CEE1E410000000000003174
+t1290673729
+s12660
+i"WiiRemoteController.h"
+i"endian.h"
+
+N/Users/kojikimura/git/flWii/Cocoa/src/endian.c
+c000000004CEE1E94000000000000017A
+t1290673812
+s378
+i"endian.h"
+
+N/Users/kojikimura/git/flWii/Cocoa/src/endian.h
+c000000004CEE1EB400000000000000BA
+t1290673844
+s186
+i<string.h>
+
+N/Users/kojikimura/git/flWii/English.lproj/InfoPlist.strings
+c000000004CE9066600000000000000B6
+t1290339942
+s182
+
+N/Users/kojikimura/git/flWii/English.lproj/MainMenu.nib
+c000000004CEB0D040000000000000088
+t1290472708
+s136
+
+N/Users/kojikimura/git/flWii/Number1.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/kojikimura/git/flWii/Number2.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/kojikimura/git/flWii/Number3.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/kojikimura/git/flWii/Number4.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/kojikimura/git/flWii/Resources/Number1.png
+c000000004CE8E2F300000000000000E4
+t1290330867
+s228
+
+N/Users/kojikimura/git/flWii/Resources/Number2.png
+c000000004CE8E2F600000000000001DE
+t1290330870
+s478
+
+N/Users/kojikimura/git/flWii/Resources/Number3.png
+c000000004CE8E2FA0000000000000214
+t1290330874
+s532
+
+N/Users/kojikimura/git/flWii/Resources/Number4.png
+c000000004CE8E2FD0000000000000177
+t1290330877
+s375
+
+N/Users/kojikimura/git/flWii/Resources/StateBalanceBoard.png
+c000000004CE8DC6B0000000000000AB2
+t1290329195
+s2738
+
+N/Users/kojikimura/git/flWii/Resources/StateClassic.png
+c000000004CE8DC700000000000000E4C
+t1290329200
+s3660
+
+N/Users/kojikimura/git/flWii/Resources/StateNunchuk.png
+c000000004CE8DC740000000000000B9E
+t1290329204
+s2974
+
+N/Users/kojikimura/git/flWii/Resources/StateWii.png
+c000000004CE8DC7C00000000000005F4
+t1290329212
+s1524
+
+N/Users/kojikimura/git/flWii/Resources/flWii.icns
+c000000004CE8DF8E0000000000009C73
+t1290329998
+s40051
+
+N/Users/kojikimura/git/flWii/SocketServer.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/kojikimura/git/flWii/StateBalanceBoard.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/kojikimura/git/flWii/StateClassic.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/kojikimura/git/flWii/StateNunchuk.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/kojikimura/git/flWii/StateWii.png
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/kojikimura/git/flWii/WiiRemoteController.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/kojikimura/git/flWii/build/Release/flWii.app
+t1290674924
+s102
+
+N/Users/kojikimura/git/flWii/build/Release/flWii.app.dSYM
+t1290674924
+s102
+
+N/Users/kojikimura/git/flWii/build/Release/flWii.app/Contents/Info.plist
+t1290337792
+s812
+
+N/Users/kojikimura/git/flWii/build/Release/flWii.app/Contents/MacOS/flWii
+t1290674924
+s116184
+
+N/Users/kojikimura/git/flWii/build/Release/flWii.app/Contents/PkgInfo
+t1290337792
+s8
+
+N/Users/kojikimura/git/flWii/build/Release/flWii.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1290339958
+s182
+
+N/Users/kojikimura/git/flWii/build/Release/flWii.app/Contents/Resources/English.lproj/MainMenu.nib
+t1290474997
+s17391
+
+N/Users/kojikimura/git/flWii/build/Release/flWii.app/Contents/Resources/Number1.png
+t1290337792
+s228
+
+N/Users/kojikimura/git/flWii/build/Release/flWii.app/Contents/Resources/Number2.png
+t1290337792
+s478
+
+N/Users/kojikimura/git/flWii/build/Release/flWii.app/Contents/Resources/Number3.png
+t1290337792
+s532
+
+N/Users/kojikimura/git/flWii/build/Release/flWii.app/Contents/Resources/Number4.png
+t1290337792
+s375
+
+N/Users/kojikimura/git/flWii/build/Release/flWii.app/Contents/Resources/StateBalanceBoard.png
+t1290337792
+s2738
+
+N/Users/kojikimura/git/flWii/build/Release/flWii.app/Contents/Resources/StateClassic.png
+t1290337792
+s3660
+
+N/Users/kojikimura/git/flWii/build/Release/flWii.app/Contents/Resources/StateNunchuk.png
+t1290337792
+s2974
+
+N/Users/kojikimura/git/flWii/build/Release/flWii.app/Contents/Resources/StateWii.png
+t1290337792
+s1524
+
+N/Users/kojikimura/git/flWii/build/Release/flWii.app/Contents/Resources/flWii.icns
+t1290337792
+s40051
+
+N/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/AppController.o
+t1290674816
+s32328
+
+N/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/SocketServer.o
+t1290674816
+s17716
+
+N/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/WiiRemoteController.o
+t1290674816
+s43808
+
+N/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/endian.o
+t1290674816
+s2040
+
+N/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii
+t1290674924
+s35212
+
+N/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii.LinkFileList
+c000000004CEE22EC00000000000001F3
+t1290674924
+s499
+
+N/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/main.o
+t1290674924
+s5148
+
+N/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/AppController.o
+t1290674816
+s33264
+
+N/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/SocketServer.o
+t1290674816
+s20076
+
+N/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/WiiRemoteController.o
+t1290674816
+s46928
+
+N/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/endian.o
+t1290674816
+s2104
+
+N/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii
+t1290674924
+s34264
+
+N/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii.LinkFileList
+c000000004CEE22EC00000000000001EE
+t1290674924
+s494
+
+N/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/main.o
+t1290674924
+s5268
+
+N/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/AppController.o
+t1290674815
+s39904
+
+N/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/SocketServer.o
+t1290674815
+s25404
+
+N/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/WiiRemoteController.o
+t1290674815
+s62496
+
+N/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/endian.o
+t1290674815
+s2596
+
+N/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii
+t1290674924
+s40456
+
+N/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii.LinkFileList
+c000000004CEE22EC00000000000001FD
+t1290674924
+s509
+
+N/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/main.o
+t1290674924
+s5616
+
+N/Users/kojikimura/git/flWii/endian.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/kojikimura/git/flWii/flWii.icns
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/kojikimura/git/flWii/flWii_Prefix.pch
+c000000004CD1D91F000000000000008D
+t1288821023
+s141
+i<Cocoa/Cocoa.h>
+
+N/Users/kojikimura/git/flWii/main.m
+c000000004CEB31280000000000000184
+t1290481960
+s388
+i<Cocoa/Cocoa.h>
+i<signal.h>
+
+N/Users/kojikimura/git/flWii/src/AppController.h
+c000000004CE8E53F0000000000000403
+t1290331455
+s1027
+i<Cocoa/Cocoa.h>
+i"WiiRemoteController.h"
+i"SocketServer.h"
+
+N/Users/kojikimura/git/flWii/src/AppController.m
+c000000004CEE1E200000000000000C53
+t1290673696
+s3155
+i"AppController.h"
+
+N/Users/kojikimura/git/flWii/src/SocketServer.h
+c000000004CEDDF640000000000000167
+t1290657636
+s359
+i<Cocoa/Cocoa.h>
+i<netinet/in.h>
+i<net/if.h>
+
+N/Users/kojikimura/git/flWii/src/SocketServer.m
+c000000004CEDDFA60000000000001110
+t1290657702
+s4368
+i"SocketServer.h"
+
+N/Users/kojikimura/git/flWii/src/WiiRemoteController.h
+c000000004CEB37DC00000000000008D7
+t1290483676
+s2263
+i<Cocoa/Cocoa.h>
+i<WiiRemote/WiiRemote.h>
+i<WiiRemote/WiiRemoteDiscovery.h>
+
+N/Users/kojikimura/git/flWii/src/WiiRemoteController.m
+c000000004CEE1E410000000000003174
+t1290673729
+s12660
+i"WiiRemoteController.h"
+i"endian.h"
+
+N/Users/kojikimura/git/flWii/src/endian.c
+c000000004CEE1E94000000000000017A
+t1290673812
+s378
+i"endian.h"
+
+N/Users/kojikimura/git/flWii/src/endian.h
+c000000004CEE1EB400000000000000BA
+t1290673844
+s186
+i<string.h>
+
+N/Users/kojikimura/git/flWii/src/main.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-aeqdxtafgbfpvtfjxflryyzfcupf/flWii_Prefix.pch.gch
+t1290339335
+s2195824
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-amgodegibkjtayaavrosegojfnke/flWii_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-avarvbwepfngawbpcxgsxwgifknc/flWii_Prefix.pch.gch
+t1289661869
+s1950064
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-bacsksxsynxjhqcoodmlfitlfncb/flWii_Prefix.pch.gch
+t1290675105
+s2195824
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-bhynqpsmhlpyshhbkmwzragmmvds/flWii_Prefix.pch.gch
+t1290674807
+s2195824
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-bnbhxxdjmzgtnygeuarpuclukutm/flWii_Prefix.pch.gch
+t1290675110
+s49819920
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-boqnmrfghprwecaknvjqpcfyfjye/flWii_Prefix.pch.gch
+t1289661869
+s2187632
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-brulllgulwazchddzlctnzxxuzwf/flWii_Prefix.pch.gch
+t1290674812
+s49819920
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-btldeybfxdfzbmhgnnnzrestpqnq/flWii_Prefix.pch.gch
+t1290339343
+s49819920
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-burwtsdieuzqdndezlztmtghabjp/flWii_Prefix.pch.gch
+t1290674812
+s1950064
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-carejavsznnhjifocbcenowwlhnx/flWii_Prefix.pch.gch
+t1290675114
+s49975504
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-cezkgulgqdhzushhejmnfkqxqqly/flWii_Prefix.pch.gch
+t1289650851
+s52740496
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-cpmquouoypqsovcafvyffdpyffnv/flWii_Prefix.pch.gch
+t1290674812
+s52740496
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-cuxujivlkmyxdmcmcimgsfqnysap/flWii_Prefix.pch.gch
+t1290675111
+s52740496
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-dugekrzqpwygdsghnnvqntfumnwf/flWii_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-dyrfpxvsilmlocfvsjdrgxzzxgza/flWii_Prefix.pch.gch
+t1290674815
+s49975504
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-edszctgpwfcczidnwpgjnehrxxvj/flWii_Prefix.pch.gch
+t1290675110
+s2187632
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-ekxzqfxfdcxlmudemtpvixoxviyr/flWii_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-etnlcqeotcczjhapfnhpvucesvuv/flWii_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-fbxuwlyskdvqryahpkijmcujcoeu/flWii_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-gknyovsgijznjphefhtpkymaxhgy/flWii_Prefix.pch.gch
+t1290674812
+s2187632
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-gwuptqpuvgvqglfxvbkyvcullmmr/flWii_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-gynpfwrstivofbeoecxhaauuwqxk/flWii_Prefix.pch.gch
+t1290675111
+s1950064
+
+N/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-hiyfgvwxvdotxgclfsftigndamfx/flWii_Prefix.pch.gch
+t1289650851
+s49975504
+
+NInfo.plist
+c000000004CE8DF510000000000000343
+t1290329937
+s835
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312367905#312367905#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/i386/AppController.o "/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s312350505.568342
+e312350512.309677
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/i386/AppController.o
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m: In function '-[AppController __receivedMessage:]':
+o/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m:93: warning: initialization discards qualifiers from pointer target type
+lSLF07#2@73"Compile /Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m312350505#312350512#0(257"/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m: In function '-[AppController __receivedMessage:]':/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m:93: warning: initialization discards qualifiers from pointer target type1(22@59"Initialization discards qualifiers from pointer target type312350510#118#139#0(6@65"/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m312225117#93#0#93#0#0"0(0#0#65"/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m8606408032#1199"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/flWii.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources/i386" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources" -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-cezkgulgqdhzushhejmnfkqxqqly/flWii_Prefix.pch -c "/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m" -o "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/AppController.o"0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/i386/AppController.o /Users/kojikimura/git/flWii/AppController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/i386/AppController.o /Users/kojikimura/git/flWii/Cocoa/src/AppController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312367915.481521
+e312367915.750243
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/i386/AppController.o
+x/Users/kojikimura/git/flWii/Cocoa/src/AppController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/kojikimura/git/flWii/Cocoa/src/AppController.m312367915#312367915#0(0"0(0#0#53"/Users/kojikimura/git/flWii/Cocoa/src/AppController.m8606338912#1106"    cd /Users/kojikimura/git/flWii/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/Frameworks -I/Users/kojikimura/git/flWii/Cocoa/build/Release/include -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources/i386 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-cuxujivlkmyxdmcmcimgsfqnysap/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/Cocoa/src/AppController.m -o /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/i386/AppController.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/i386/AppController.o /Users/kojikimura/git/flWii/src/AppController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312367615.784961
+e312367616.016804
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/i386/AppController.o
+x/Users/kojikimura/git/flWii/src/AppController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/kojikimura/git/flWii/src/AppController.m312367615#312367616#0(0"0(0#0#47"/Users/kojikimura/git/flWii/src/AppController.m8611136448#1011"    cd /Users/kojikimura/git/flWii    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/build/Release -I/Users/kojikimura/git/flWii/build/Release/include -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources/i386 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-cpmquouoypqsovcafvyffdpyffnv/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/src/AppController.m -o /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/AppController.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/i386/SocketServer.o "/Users/kojikimura/Desktop/Cocoa Application/flWii/SocketServer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s312350511.255548
+e312350511.992811
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/i386/SocketServer.o
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/SocketServer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/kojikimura/Desktop/Cocoa Application/flWii/SocketServer.m312350511#312350511#0(0"0(0#0#64"/Users/kojikimura/Desktop/Cocoa Application/flWii/SocketServer.m8606112544#1197"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/flWii.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources/i386" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources" -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-cezkgulgqdhzushhejmnfkqxqqly/flWii_Prefix.pch -c "/Users/kojikimura/Desktop/Cocoa Application/flWii/SocketServer.m" -o "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/SocketServer.o"0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/i386/SocketServer.o /Users/kojikimura/git/flWii/Cocoa/src/SocketServer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312367915.750343
+e312367916.194066
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/i386/SocketServer.o
+x/Users/kojikimura/git/flWii/Cocoa/src/SocketServer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/kojikimura/git/flWii/Cocoa/src/SocketServer.m312367915#312367916#0(0"0(0#0#52"/Users/kojikimura/git/flWii/Cocoa/src/SocketServer.m8604209696#1104"    cd /Users/kojikimura/git/flWii/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/Frameworks -I/Users/kojikimura/git/flWii/Cocoa/build/Release/include -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources/i386 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-cuxujivlkmyxdmcmcimgsfqnysap/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/Cocoa/src/SocketServer.m -o /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/i386/SocketServer.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/i386/SocketServer.o /Users/kojikimura/git/flWii/SocketServer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/i386/SocketServer.o /Users/kojikimura/git/flWii/src/SocketServer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312367616.016903
+e312367616.227907
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/i386/SocketServer.o
+x/Users/kojikimura/git/flWii/src/SocketServer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/kojikimura/git/flWii/src/SocketServer.m312367616#312367616#0(0"0(0#0#46"/Users/kojikimura/git/flWii/src/SocketServer.m8612796480#1009"    cd /Users/kojikimura/git/flWii    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/build/Release -I/Users/kojikimura/git/flWii/build/Release/include -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources/i386 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-cpmquouoypqsovcafvyffdpyffnv/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/src/SocketServer.m -o /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/SocketServer.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/i386/WiiRemoteController.o "/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s312178724.532356
+e312178724.999394
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/i386/WiiRemoteController.o
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m: In function '-[WiiRemoteController setReceivedData:]':
+o/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m:179: warning: initialization discards qualifiers from pointer target type
+o/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m: At top level:
+o/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m:12: warning: '_irPositions' defined but not used
+lSLF07#2@79"Compile /Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m312178724#312178725#0(482"/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m: In function '-[WiiRemoteController setReceivedData:]':/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m:179: warning: initialization discards qualifiers from pointer target type/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m: At top level:/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m:12: warning: '_irPositions' defined but not used3(22@59"Initialization discards qualifiers from pointer target type312178724#128#146#0(6@71"/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m312177512#179#0#179#0#0"0(23@13"At top level:312178724#274#87#0(6@71"/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m312177512#0#0#0#0#0"0(22@35"'_irPositions' defined but not used312178724#361#121#0(6@71"/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m312177512#12#0#12#0#24"'*' defined but not used0(0#0#71"/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m8636792448#1211"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/flWii.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources/i386" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources" -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-cezkgulgqdhzushhejmnfkqxqqly/flWii_Prefix.pch -c "/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m" -o "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/WiiRemoteController.o"0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/i386/WiiRemoteController.o /Users/kojikimura/git/flWii/Cocoa/src/WiiRemoteController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312367916.194206
+e312367917.411021
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/i386/WiiRemoteController.o
+x/Users/kojikimura/git/flWii/Cocoa/src/WiiRemoteController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/kojikimura/git/flWii/Cocoa/src/WiiRemoteController.m312367916#312367917#0(0"0(0#0#59"/Users/kojikimura/git/flWii/Cocoa/src/WiiRemoteController.m8603889568#1118"    cd /Users/kojikimura/git/flWii/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/Frameworks -I/Users/kojikimura/git/flWii/Cocoa/build/Release/include -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources/i386 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-cuxujivlkmyxdmcmcimgsfqnysap/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/Cocoa/src/WiiRemoteController.m -o /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/i386/WiiRemoteController.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/i386/WiiRemoteController.o /Users/kojikimura/git/flWii/WiiRemoteController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/i386/WiiRemoteController.o /Users/kojikimura/git/flWii/src/WiiRemoteController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312367615.918295
+e312367616.301078
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/i386/WiiRemoteController.o
+x/Users/kojikimura/git/flWii/src/WiiRemoteController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/kojikimura/git/flWii/src/WiiRemoteController.m312367615#312367616#0(0"0(0#0#53"/Users/kojikimura/git/flWii/src/WiiRemoteController.m8613262208#1023"    cd /Users/kojikimura/git/flWii    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/build/Release -I/Users/kojikimura/git/flWii/build/Release/include -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources/i386 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-cpmquouoypqsovcafvyffdpyffnv/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/src/WiiRemoteController.m -o /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/WiiRemoteController.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/i386/endian.o "/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c" normal i386 c com.apple.compilers.gcc.4_2
+s311354670.340678
+e311354670.379034
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/i386/endian.o
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c: In function 'convertFloat':
+o/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c:14: warning: incompatible implicit declaration of built-in function 'memcpy'
+lSLF07#2@66"Compile /Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c311354670#311354670#0(224"/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c: In function 'convertFloat':/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c:14: warning: incompatible implicit declaration of built-in function 'memcpy'1(22@63"Incompatible implicit declaration of built-in function 'memcpy'311354670#88#136#0(6@58"/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c311354311#14#0#14#0#0"0(0#0#58"/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c8626358848#1175"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/flWii.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources/i386" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources" -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-boqnmrfghprwecaknvjqpcfyfjye/flWii_Prefix.pch -c "/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c" -o "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/endian.o"0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/i386/endian.o /Users/kojikimura/git/flWii/Cocoa/src/endian.c normal i386 c com.apple.compilers.gcc.4_2
+s312367916.887131
+e312367916.943293
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/i386/endian.o
+x/Users/kojikimura/git/flWii/Cocoa/src/endian.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/kojikimura/git/flWii/Cocoa/src/endian.c312367916#312367916#0(0"0(0#0#46"/Users/kojikimura/git/flWii/Cocoa/src/endian.c8606368640#1082"    cd /Users/kojikimura/git/flWii/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/Frameworks -I/Users/kojikimura/git/flWii/Cocoa/build/Release/include -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources/i386 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-edszctgpwfcczidnwpgjnehrxxvj/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/Cocoa/src/endian.c -o /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/i386/endian.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/i386/endian.o /Users/kojikimura/git/flWii/endian.c normal i386 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/i386/endian.o /Users/kojikimura/git/flWii/src/endian.c normal i386 c com.apple.compilers.gcc.4_2
+s312367616.228013
+e312367616.259988
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/i386/endian.o
+x/Users/kojikimura/git/flWii/src/endian.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/kojikimura/git/flWii/src/endian.c312367616#312367616#0(0"0(0#0#40"/Users/kojikimura/git/flWii/src/endian.c8611106304#987"    cd /Users/kojikimura/git/flWii    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/build/Release -I/Users/kojikimura/git/flWii/build/Release/include -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources/i386 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-gknyovsgijznjphefhtpkymaxhgy/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/src/endian.c -o /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/endian.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/i386/main.o "/Users/kojikimura/Desktop/Cocoa Application/flWii/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s312175939.939313
+e312175940.160503
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/i386/main.o
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/kojikimura/Desktop/Cocoa Application/flWii/main.m312175939#312175940#0(0"0(0#0#56"/Users/kojikimura/Desktop/Cocoa Application/flWii/main.m8635285664#1181"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/flWii.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources/i386" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources" -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-cezkgulgqdhzushhejmnfkqxqqly/flWii_Prefix.pch -c "/Users/kojikimura/Desktop/Cocoa Application/flWii/main.m" -o "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/i386/main.o /Users/kojikimura/git/flWii/Cocoa/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312367915.293584
+e312367915.481429
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/i386/main.o
+x/Users/kojikimura/git/flWii/Cocoa/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/kojikimura/git/flWii/Cocoa/main.m312367915#312367915#0(0"0(0#0#40"/Users/kojikimura/git/flWii/Cocoa/main.m8602609824#1084"    cd /Users/kojikimura/git/flWii/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/Frameworks -I/Users/kojikimura/git/flWii/Cocoa/build/Release/include -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources/i386 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-cuxujivlkmyxdmcmcimgsfqnysap/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/Cocoa/main.m -o /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/i386/main.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/i386/main.o /Users/kojikimura/git/flWii/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312367724.413308
+e312367724.575943
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/i386/main.o
+x/Users/kojikimura/git/flWii/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Compile /Users/kojikimura/git/flWii/main.m312367724#312367724#0(0"0(0#0#34"/Users/kojikimura/git/flWii/main.m8594869536#989"    cd /Users/kojikimura/git/flWii    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/build/Release -I/Users/kojikimura/git/flWii/build/Release/include -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources/i386 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-cpmquouoypqsovcafvyffdpyffnv/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/main.m -o /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/main.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/i386/main.o /Users/kojikimura/git/flWii/src/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/ppc/AppController.o "/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s312350511.993126
+e312350518.049742
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/ppc/AppController.o
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m: In function '-[AppController __receivedMessage:]':
+o/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m:93: warning: initialization discards qualifiers from pointer target type
+lSLF07#2@73"Compile /Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m312350511#312350518#0(257"/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m: In function '-[AppController __receivedMessage:]':/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m:93: warning: initialization discards qualifiers from pointer target type1(22@59"Initialization discards qualifiers from pointer target type312350516#118#139#0(6@65"/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m312225117#93#0#93#0#0"0(0#0#65"/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m8606320096#1206"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/flWii.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources/ppc" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources" -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-hiyfgvwxvdotxgclfsftigndamfx/flWii_Prefix.pch -c "/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m" -o "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/AppController.o"0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/ppc/AppController.o /Users/kojikimura/git/flWii/AppController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/ppc/AppController.o /Users/kojikimura/git/flWii/Cocoa/src/AppController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s312367917.417611
+e312367917.819776
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/ppc/AppController.o
+x/Users/kojikimura/git/flWii/Cocoa/src/AppController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/kojikimura/git/flWii/Cocoa/src/AppController.m312367917#312367917#0(0"0(0#0#53"/Users/kojikimura/git/flWii/Cocoa/src/AppController.m8596165856#1113"    cd /Users/kojikimura/git/flWii/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/Frameworks -I/Users/kojikimura/git/flWii/Cocoa/build/Release/include -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources/ppc -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-carejavsznnhjifocbcenowwlhnx/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/Cocoa/src/AppController.m -o /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/ppc/AppController.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/ppc/AppController.o /Users/kojikimura/git/flWii/src/AppController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s312367616.260089
+e312367616.551548
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/ppc/AppController.o
+x/Users/kojikimura/git/flWii/src/AppController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/kojikimura/git/flWii/src/AppController.m312367616#312367616#0(0"0(0#0#47"/Users/kojikimura/git/flWii/src/AppController.m8610517376#1018"    cd /Users/kojikimura/git/flWii    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/build/Release -I/Users/kojikimura/git/flWii/build/Release/include -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources/ppc -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-dyrfpxvsilmlocfvsjdrgxzzxgza/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/src/AppController.m -o /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/AppController.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/ppc/SocketServer.o "/Users/kojikimura/Desktop/Cocoa Application/flWii/SocketServer.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s312350512.965463
+e312350518.049483
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/ppc/SocketServer.o
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/SocketServer.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/kojikimura/Desktop/Cocoa Application/flWii/SocketServer.m312350512#312350518#0(0"0(0#0#64"/Users/kojikimura/Desktop/Cocoa Application/flWii/SocketServer.m8607426368#1204"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/flWii.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources/ppc" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources" -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-hiyfgvwxvdotxgclfsftigndamfx/flWii_Prefix.pch -c "/Users/kojikimura/Desktop/Cocoa Application/flWii/SocketServer.m" -o "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/SocketServer.o"0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/ppc/SocketServer.o /Users/kojikimura/git/flWii/Cocoa/src/SocketServer.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s312367917.481586
+e312367917.826417
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/ppc/SocketServer.o
+x/Users/kojikimura/git/flWii/Cocoa/src/SocketServer.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/kojikimura/git/flWii/Cocoa/src/SocketServer.m312367917#312367917#0(0"0(0#0#52"/Users/kojikimura/git/flWii/Cocoa/src/SocketServer.m8604245152#1111"    cd /Users/kojikimura/git/flWii/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/Frameworks -I/Users/kojikimura/git/flWii/Cocoa/build/Release/include -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources/ppc -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-carejavsznnhjifocbcenowwlhnx/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/Cocoa/src/SocketServer.m -o /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/ppc/SocketServer.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/ppc/SocketServer.o /Users/kojikimura/git/flWii/SocketServer.m normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/ppc/SocketServer.o /Users/kojikimura/git/flWii/src/SocketServer.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s312367616.551639
+e312367616.770865
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/ppc/SocketServer.o
+x/Users/kojikimura/git/flWii/src/SocketServer.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/kojikimura/git/flWii/src/SocketServer.m312367616#312367616#0(0"0(0#0#46"/Users/kojikimura/git/flWii/src/SocketServer.m8612007584#1016"    cd /Users/kojikimura/git/flWii    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/build/Release -I/Users/kojikimura/git/flWii/build/Release/include -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources/ppc -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-dyrfpxvsilmlocfvsjdrgxzzxgza/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/src/SocketServer.m -o /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/SocketServer.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/ppc/WiiRemoteController.o "/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s312178725.029013
+e312178725.392056
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/ppc/WiiRemoteController.o
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m: In function '-[WiiRemoteController setReceivedData:]':
+o/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m:179: warning: initialization discards qualifiers from pointer target type
+o/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m: At top level:
+o/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m:12: warning: '_irPositions' defined but not used
+lSLF07#2@79"Compile /Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m312178725#312178725#0(482"/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m: In function '-[WiiRemoteController setReceivedData:]':/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m:179: warning: initialization discards qualifiers from pointer target type/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m: At top level:/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m:12: warning: '_irPositions' defined but not used3(22@59"Initialization discards qualifiers from pointer target type312178725#128#146#0(6@71"/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m312177512#179#0#179#0#0"0(23@13"At top level:312178725#274#87#0(6@71"/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m312177512#0#0#0#0#0"0(22@35"'_irPositions' defined but not used312178725#361#121#0(6@71"/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m312177512#12#0#12#0#24"'*' defined but not used0(0#0#71"/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m8635366080#1218"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/flWii.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources/ppc" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources" -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-hiyfgvwxvdotxgclfsftigndamfx/flWii_Prefix.pch -c "/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m" -o "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/WiiRemoteController.o"0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/ppc/WiiRemoteController.o /Users/kojikimura/git/flWii/Cocoa/src/WiiRemoteController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s312367917.819978
+e312367918.189996
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/ppc/WiiRemoteController.o
+x/Users/kojikimura/git/flWii/Cocoa/src/WiiRemoteController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/kojikimura/git/flWii/Cocoa/src/WiiRemoteController.m312367917#312367918#0(0"0(0#0#59"/Users/kojikimura/git/flWii/Cocoa/src/WiiRemoteController.m8606376064#1125"    cd /Users/kojikimura/git/flWii/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/Frameworks -I/Users/kojikimura/git/flWii/Cocoa/build/Release/include -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources/ppc -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-carejavsznnhjifocbcenowwlhnx/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/Cocoa/src/WiiRemoteController.m -o /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/ppc/WiiRemoteController.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/ppc/WiiRemoteController.o /Users/kojikimura/git/flWii/WiiRemoteController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/ppc/WiiRemoteController.o /Users/kojikimura/git/flWii/src/WiiRemoteController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s312367616.328825
+e312367616.709162
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/ppc/WiiRemoteController.o
+x/Users/kojikimura/git/flWii/src/WiiRemoteController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/kojikimura/git/flWii/src/WiiRemoteController.m312367616#312367616#0(0"0(0#0#53"/Users/kojikimura/git/flWii/src/WiiRemoteController.m8610252384#1030"    cd /Users/kojikimura/git/flWii    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/build/Release -I/Users/kojikimura/git/flWii/build/Release/include -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources/ppc -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-dyrfpxvsilmlocfvsjdrgxzzxgza/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/src/WiiRemoteController.m -o /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/WiiRemoteController.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/ppc/endian.o "/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c" normal ppc c com.apple.compilers.gcc.4_2
+s311354669.903760
+e311354670.127431
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/ppc/endian.o
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c: In function 'convertFloat':
+o/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c:14: warning: incompatible implicit declaration of built-in function 'memcpy'
+lSLF07#2@66"Compile /Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c311354669#311354670#0(224"/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c: In function 'convertFloat':/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c:14: warning: incompatible implicit declaration of built-in function 'memcpy'1(22@63"Incompatible implicit declaration of built-in function 'memcpy'311354670#88#136#0(6@58"/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c311354311#14#0#14#0#0"0(0#0#58"/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c8624408576#1182"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/flWii.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources/ppc" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources" -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-avarvbwepfngawbpcxgsxwgifknc/flWii_Prefix.pch -c "/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c" -o "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/endian.o"0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/ppc/endian.o /Users/kojikimura/git/flWii/Cocoa/src/endian.c normal ppc c com.apple.compilers.gcc.4_2
+s312367917.826509
+e312367917.887614
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/ppc/endian.o
+x/Users/kojikimura/git/flWii/Cocoa/src/endian.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/kojikimura/git/flWii/Cocoa/src/endian.c312367917#312367917#0(0"0(0#0#46"/Users/kojikimura/git/flWii/Cocoa/src/endian.c8606268352#1089"    cd /Users/kojikimura/git/flWii/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/Frameworks -I/Users/kojikimura/git/flWii/Cocoa/build/Release/include -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources/ppc -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-gynpfwrstivofbeoecxhaauuwqxk/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/Cocoa/src/endian.c -o /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/ppc/endian.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/ppc/endian.o /Users/kojikimura/git/flWii/endian.c normal ppc c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/ppc/endian.o /Users/kojikimura/git/flWii/src/endian.c normal ppc c com.apple.compilers.gcc.4_2
+s312367616.709256
+e312367616.737576
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/ppc/endian.o
+x/Users/kojikimura/git/flWii/src/endian.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/kojikimura/git/flWii/src/endian.c312367616#312367616#0(0"0(0#0#40"/Users/kojikimura/git/flWii/src/endian.c8610403072#994"    cd /Users/kojikimura/git/flWii    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/build/Release -I/Users/kojikimura/git/flWii/build/Release/include -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources/ppc -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-burwtsdieuzqdndezlztmtghabjp/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/src/endian.c -o /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/endian.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/ppc/main.o "/Users/kojikimura/Desktop/Cocoa Application/flWii/main.m" normal ppc objective-c com.apple.compilers.gcc.4_2
+s312175940.670702
+e312175940.869287
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/ppc/main.o
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/kojikimura/Desktop/Cocoa Application/flWii/main.m312175940#312175940#0(0"0(0#0#56"/Users/kojikimura/Desktop/Cocoa Application/flWii/main.m8634429632#1188"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/flWii.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources/ppc" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources" -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-hiyfgvwxvdotxgclfsftigndamfx/flWii_Prefix.pch -c "/Users/kojikimura/Desktop/Cocoa Application/flWii/main.m" -o "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/main.o"0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/ppc/main.o /Users/kojikimura/git/flWii/Cocoa/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s312367916.943387
+e312367917.417497
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/ppc/main.o
+x/Users/kojikimura/git/flWii/Cocoa/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/kojikimura/git/flWii/Cocoa/main.m312367916#312367917#0(0"0(0#0#40"/Users/kojikimura/git/flWii/Cocoa/main.m8606068864#1091"    cd /Users/kojikimura/git/flWii/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/Frameworks -I/Users/kojikimura/git/flWii/Cocoa/build/Release/include -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources/ppc -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-carejavsznnhjifocbcenowwlhnx/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/Cocoa/main.m -o /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/ppc/main.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/ppc/main.o /Users/kojikimura/git/flWii/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s312367724.603532
+e312367724.722735
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/ppc/main.o
+x/Users/kojikimura/git/flWii/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Compile /Users/kojikimura/git/flWii/main.m312367724#312367724#0(0"0(0#0#34"/Users/kojikimura/git/flWii/main.m8612384032#996"    cd /Users/kojikimura/git/flWii    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/build/Release -I/Users/kojikimura/git/flWii/build/Release/include -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources/ppc -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-dyrfpxvsilmlocfvsjdrgxzzxgza/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/main.m -o /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/main.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/ppc/main.o /Users/kojikimura/git/flWii/src/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/x86_64/AppController.o "/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312350504.834896
+e312350505.568026
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/x86_64/AppController.o
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m: In function '-[AppController __receivedMessage:]':
+o/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m:93: warning: initialization discards qualifiers from pointer target type
+lSLF07#2@73"Compile /Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m312350504#312350505#0(257"/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m: In function '-[AppController __receivedMessage:]':/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m:93: warning: initialization discards qualifiers from pointer target type1(22@59"Initialization discards qualifiers from pointer target type312350505#118#139#0(6@65"/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m312225117#93#0#93#0#0"0(0#0#65"/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m8088798307031136256#1205"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/flWii.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources/x86_64" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources" -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-btldeybfxdfzbmhgnnnzrestpqnq/flWii_Prefix.pch -c "/Users/kojikimura/Desktop/Cocoa Application/flWii/AppController.m" -o "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/AppController.o"0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/x86_64/AppController.o /Users/kojikimura/git/flWii/AppController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/x86_64/AppController.o /Users/kojikimura/git/flWii/Cocoa/src/AppController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312367914.565079
+e312367915.134141
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/x86_64/AppController.o
+x/Users/kojikimura/git/flWii/Cocoa/src/AppController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/kojikimura/git/flWii/Cocoa/src/AppController.m312367914#312367915#0(0"0(0#0#53"/Users/kojikimura/git/flWii/Cocoa/src/AppController.m8604078720#1112"    cd /Users/kojikimura/git/flWii/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/Frameworks -I/Users/kojikimura/git/flWii/Cocoa/build/Release/include -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources/x86_64 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-bnbhxxdjmzgtnygeuarpuclukutm/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/Cocoa/src/AppController.m -o /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/AppController.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/x86_64/AppController.o /Users/kojikimura/git/flWii/src/AppController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312367615.314023
+e312367615.569925
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/x86_64/AppController.o
+x/Users/kojikimura/git/flWii/src/AppController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/kojikimura/git/flWii/src/AppController.m312367615#312367615#0(0"0(0#0#47"/Users/kojikimura/git/flWii/src/AppController.m8613778464#1017"    cd /Users/kojikimura/git/flWii    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/build/Release -I/Users/kojikimura/git/flWii/build/Release/include -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources/x86_64 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-brulllgulwazchddzlctnzxxuzwf/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/src/AppController.m -o /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/AppController.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/x86_64/SocketServer.o "/Users/kojikimura/Desktop/Cocoa Application/flWii/SocketServer.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312350504.877887
+e312350505.620194
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/x86_64/SocketServer.o
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/SocketServer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/kojikimura/Desktop/Cocoa Application/flWii/SocketServer.m312350504#312350505#0(0"0(0#0#64"/Users/kojikimura/Desktop/Cocoa Application/flWii/SocketServer.m8607206432#1203"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/flWii.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources/x86_64" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources" -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-btldeybfxdfzbmhgnnnzrestpqnq/flWii_Prefix.pch -c "/Users/kojikimura/Desktop/Cocoa Application/flWii/SocketServer.m" -o "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/SocketServer.o"0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/x86_64/SocketServer.o /Users/kojikimura/git/flWii/Cocoa/src/SocketServer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312367914.807606
+e312367915.210653
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/x86_64/SocketServer.o
+x/Users/kojikimura/git/flWii/Cocoa/src/SocketServer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/kojikimura/git/flWii/Cocoa/src/SocketServer.m312367914#312367915#0(0"0(0#0#52"/Users/kojikimura/git/flWii/Cocoa/src/SocketServer.m8600464480#1110"    cd /Users/kojikimura/git/flWii/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/Frameworks -I/Users/kojikimura/git/flWii/Cocoa/build/Release/include -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources/x86_64 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-bnbhxxdjmzgtnygeuarpuclukutm/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/Cocoa/src/SocketServer.m -o /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/SocketServer.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/x86_64/SocketServer.o /Users/kojikimura/git/flWii/SocketServer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/x86_64/SocketServer.o /Users/kojikimura/git/flWii/src/SocketServer.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312367615.570016
+e312367615.798695
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/x86_64/SocketServer.o
+x/Users/kojikimura/git/flWii/src/SocketServer.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/kojikimura/git/flWii/src/SocketServer.m312367615#312367615#0(0"0(0#0#46"/Users/kojikimura/git/flWii/src/SocketServer.m8611740064#1015"    cd /Users/kojikimura/git/flWii    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/build/Release -I/Users/kojikimura/git/flWii/build/Release/include -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources/x86_64 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-brulllgulwazchddzlctnzxxuzwf/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/src/SocketServer.m -o /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/SocketServer.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/x86_64/WiiRemoteController.o "/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312178723.779215
+e312178724.512730
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/x86_64/WiiRemoteController.o
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m: In function '-[WiiRemoteController setReceivedData:]':
+o/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m:179: warning: initialization discards qualifiers from pointer target type
+o/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m: At top level:
+o/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m:12: warning: '_irPositions' defined but not used
+lSLF07#2@79"Compile /Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m312178723#312178724#0(482"/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m: In function '-[WiiRemoteController setReceivedData:]':/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m:179: warning: initialization discards qualifiers from pointer target type/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m: At top level:/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m:12: warning: '_irPositions' defined but not used3(22@59"Initialization discards qualifiers from pointer target type312178724#128#146#0(6@71"/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m312177512#179#0#179#0#0"0(23@13"At top level:312178724#274#87#0(6@71"/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m312177512#0#0#0#0#0"0(22@35"'_irPositions' defined but not used312178724#361#121#0(6@71"/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m312177512#12#0#12#0#24"'*' defined but not used0(0#0#71"/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m8643247872#1217"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/flWii.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources/x86_64" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources" -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-btldeybfxdfzbmhgnnnzrestpqnq/flWii_Prefix.pch -c "/Users/kojikimura/Desktop/Cocoa Application/flWii/WiiRemoteController.m" -o "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/WiiRemoteController.o"0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/x86_64/WiiRemoteController.o /Users/kojikimura/git/flWii/Cocoa/src/WiiRemoteController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312367915.134233
+e312367915.886440
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/x86_64/WiiRemoteController.o
+x/Users/kojikimura/git/flWii/Cocoa/src/WiiRemoteController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/kojikimura/git/flWii/Cocoa/src/WiiRemoteController.m312367915#312367915#0(0"0(0#0#59"/Users/kojikimura/git/flWii/Cocoa/src/WiiRemoteController.m8605800064#1124"    cd /Users/kojikimura/git/flWii/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/Frameworks -I/Users/kojikimura/git/flWii/Cocoa/build/Release/include -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources/x86_64 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-bnbhxxdjmzgtnygeuarpuclukutm/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/Cocoa/src/WiiRemoteController.m -o /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/WiiRemoteController.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/x86_64/WiiRemoteController.o /Users/kojikimura/git/flWii/WiiRemoteController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/x86_64/WiiRemoteController.o /Users/kojikimura/git/flWii/src/WiiRemoteController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312367615.314971
+e312367615.753614
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/x86_64/WiiRemoteController.o
+x/Users/kojikimura/git/flWii/src/WiiRemoteController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/kojikimura/git/flWii/src/WiiRemoteController.m312367615#312367615#0(0"0(0#0#53"/Users/kojikimura/git/flWii/src/WiiRemoteController.m8613621312#1029"    cd /Users/kojikimura/git/flWii    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/build/Release -I/Users/kojikimura/git/flWii/build/Release/include -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources/x86_64 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-brulllgulwazchddzlctnzxxuzwf/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/src/WiiRemoteController.m -o /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/WiiRemoteController.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/x86_64/endian.o "/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c" normal x86_64 c com.apple.compilers.gcc.4_2
+s312032144.576488
+e312032144.743730
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/x86_64/endian.o
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c: In function 'convertFloat':
+o/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c:14: warning: incompatible implicit declaration of built-in function 'memcpy'
+lSLF07#2@66"Compile /Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c312032144#312032144#0(224"/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c: In function 'convertFloat':/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c:14: warning: incompatible implicit declaration of built-in function 'memcpy'1(22@63"Incompatible implicit declaration of built-in function 'memcpy'312032144#88#136#0(6@58"/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c311354311#14#0#14#0#0"0(0#0#58"/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c8629868480#1181"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/flWii.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources/x86_64" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources" -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-aeqdxtafgbfpvtfjxflryyzfcupf/flWii_Prefix.pch -c "/Users/kojikimura/Desktop/Cocoa Application/flWii/endian.c" -o "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/endian.o"0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/x86_64/endian.o /Users/kojikimura/git/flWii/Cocoa/src/endian.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312367915.210740
+e312367915.293486
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/x86_64/endian.o
+x/Users/kojikimura/git/flWii/Cocoa/src/endian.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/kojikimura/git/flWii/Cocoa/src/endian.c312367915#312367915#0(0"0(0#0#46"/Users/kojikimura/git/flWii/Cocoa/src/endian.c8603957184#1088"    cd /Users/kojikimura/git/flWii/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/Frameworks -I/Users/kojikimura/git/flWii/Cocoa/build/Release/include -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources/x86_64 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-bacsksxsynxjhqcoodmlfitlfncb/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/Cocoa/src/endian.c -o /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/endian.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/x86_64/endian.o /Users/kojikimura/git/flWii/endian.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/x86_64/endian.o /Users/kojikimura/git/flWii/src/endian.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312367615.753710
+e312367615.784866
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/x86_64/endian.o
+x/Users/kojikimura/git/flWii/src/endian.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/kojikimura/git/flWii/src/endian.c312367615#312367615#0(0"0(0#0#40"/Users/kojikimura/git/flWii/src/endian.c8594411264#993"    cd /Users/kojikimura/git/flWii    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/build/Release -I/Users/kojikimura/git/flWii/build/Release/include -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources/x86_64 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-bhynqpsmhlpyshhbkmwzragmmvds/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/src/endian.c -o /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/endian.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/x86_64/main.o "/Users/kojikimura/Desktop/Cocoa Application/flWii/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312175939.482741
+e312175939.939101
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/x86_64/main.o
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/kojikimura/Desktop/Cocoa Application/flWii/main.m312175939#312175939#0(0"0(0#0#56"/Users/kojikimura/Desktop/Cocoa Application/flWii/main.m8634891808#1187"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/flWii.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources/x86_64" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources" -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-btldeybfxdfzbmhgnnnzrestpqnq/flWii_Prefix.pch -c "/Users/kojikimura/Desktop/Cocoa Application/flWii/main.m" -o "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/main.o"0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/x86_64/main.o /Users/kojikimura/git/flWii/Cocoa/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312367914.563911
+e312367914.807483
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/x86_64/main.o
+x/Users/kojikimura/git/flWii/Cocoa/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/kojikimura/git/flWii/Cocoa/main.m312367914#312367914#0(0"0(0#0#40"/Users/kojikimura/git/flWii/Cocoa/main.m8606451392#1090"    cd /Users/kojikimura/git/flWii/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/Frameworks -I/Users/kojikimura/git/flWii/Cocoa/build/Release/include -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources/x86_64 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-bnbhxxdjmzgtnygeuarpuclukutm/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/Cocoa/main.m -o /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/x86_64/main.o /Users/kojikimura/git/flWii/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312367724.411705
+e312367724.577231
+r1
+xCompileC
+xbuild/flWii.build/Release/flWii.build/Objects-normal/x86_64/main.o
+x/Users/kojikimura/git/flWii/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@42"Compile /Users/kojikimura/git/flWii/main.m312367724#312367724#0(0"0(0#0#34"/Users/kojikimura/git/flWii/main.m8594458848#995"    cd /Users/kojikimura/git/flWii    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/build/Release -I/Users/kojikimura/git/flWii/build/Release/include -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources/x86_64 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources -include /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-brulllgulwazchddzlctnzxxuzwf/flWii_Prefix.pch -c /Users/kojikimura/git/flWii/main.m -o /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/flWii.build/Release/flWii.build/Objects-normal/x86_64/main.o /Users/kojikimura/git/flWii/src/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCopyStringsFile "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s312032758.641873
+e312032758.712199
+r1
+xCopyStringsFile
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings312032758#312032758#0(0"0(0#0#81"/Users/kojikimura/Desktop/Cocoa Application/flWii/English.lproj/InfoPlist.strings8626310080#392"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources/English.lproj"0#
+
+CCopyStringsFile /Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
+
+CCopyStringsFile /Users/kojikimura/git/flWii/build/Release/flWii.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
+
+CCpResource build/Release/flWii.app/Contents/Resources/Icon256.png design/Icon256.png
+s312030592.427068
+e312030592.487867
+r1
+xCpResource
+xbuild/Release/flWii.app/Contents/Resources/Icon256.png
+xdesign/Icon256.png
+lSLF07#2@23"Copy design/Icon256.png312030592#312030592#0(0"0(0#0#68"/Users/kojikimura/Desktop/Cocoa Application/flWii/design/Icon256.png8629820288#394"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/kojikimura/Desktop/Cocoa Application/flWii/design/Icon256.png" "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources"0#
+
+CCpResource build/Release/flWii.app/Contents/Resources/Number1.png Number1.png
+s312030592.228157
+e312030592.443575
+r1
+xCpResource
+xbuild/Release/flWii.app/Contents/Resources/Number1.png
+xNumber1.png
+lSLF07#2@16"Copy Number1.png312030592#312030592#0(0"0(0#0#61"/Users/kojikimura/Desktop/Cocoa Application/flWii/Number1.png8624028064#387"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/kojikimura/Desktop/Cocoa Application/flWii/Number1.png" "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources"0#
+
+CCpResource build/Release/flWii.app/Contents/Resources/Number1.png Resources/Number1.png
+r0
+
+CCpResource build/Release/flWii.app/Contents/Resources/Number2.png Number2.png
+s312030592.228607
+e312030592.443718
+r1
+xCpResource
+xbuild/Release/flWii.app/Contents/Resources/Number2.png
+xNumber2.png
+lSLF07#2@16"Copy Number2.png312030592#312030592#0(0"0(0#0#61"/Users/kojikimura/Desktop/Cocoa Application/flWii/Number2.png8623921664#387"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/kojikimura/Desktop/Cocoa Application/flWii/Number2.png" "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources"0#
+
+CCpResource build/Release/flWii.app/Contents/Resources/Number2.png Resources/Number2.png
+r0
+
+CCpResource build/Release/flWii.app/Contents/Resources/Number3.png Number3.png
+s312030592.229070
+e312030592.442893
+r1
+xCpResource
+xbuild/Release/flWii.app/Contents/Resources/Number3.png
+xNumber3.png
+lSLF07#2@16"Copy Number3.png312030592#312030592#0(0"0(0#0#61"/Users/kojikimura/Desktop/Cocoa Application/flWii/Number3.png8623817760#387"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/kojikimura/Desktop/Cocoa Application/flWii/Number3.png" "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources"0#
+
+CCpResource build/Release/flWii.app/Contents/Resources/Number3.png Resources/Number3.png
+r0
+
+CCpResource build/Release/flWii.app/Contents/Resources/Number4.png Number4.png
+s312030592.229507
+e312030592.443010
+r1
+xCpResource
+xbuild/Release/flWii.app/Contents/Resources/Number4.png
+xNumber4.png
+lSLF07#2@16"Copy Number4.png312030592#312030592#0(0"0(0#0#61"/Users/kojikimura/Desktop/Cocoa Application/flWii/Number4.png8623689152#387"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/kojikimura/Desktop/Cocoa Application/flWii/Number4.png" "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources"0#
+
+CCpResource build/Release/flWii.app/Contents/Resources/Number4.png Resources/Number4.png
+r0
+
+CCpResource build/Release/flWii.app/Contents/Resources/StateBalanceBoard.png Resources/StateBalanceBoard.png
+r0
+
+CCpResource build/Release/flWii.app/Contents/Resources/StateBalanceBoard.png StateBalanceBoard.png
+s312030592.232359
+e312030592.426998
+r1
+xCpResource
+xbuild/Release/flWii.app/Contents/Resources/StateBalanceBoard.png
+xStateBalanceBoard.png
+lSLF07#2@26"Copy StateBalanceBoard.png312030592#312030592#0(0"0(0#0#71"/Users/kojikimura/Desktop/Cocoa Application/flWii/StateBalanceBoard.png8621978784#397"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/kojikimura/Desktop/Cocoa Application/flWii/StateBalanceBoard.png" "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources"0#
+
+CCpResource build/Release/flWii.app/Contents/Resources/StateClassic.png Resources/StateClassic.png
+r0
+
+CCpResource build/Release/flWii.app/Contents/Resources/StateClassic.png StateClassic.png
+s312030592.229937
+e312030592.426646
+r1
+xCpResource
+xbuild/Release/flWii.app/Contents/Resources/StateClassic.png
+xStateClassic.png
+lSLF07#2@21"Copy StateClassic.png312030592#312030592#0(0"0(0#0#66"/Users/kojikimura/Desktop/Cocoa Application/flWii/StateClassic.png8622914624#392"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/kojikimura/Desktop/Cocoa Application/flWii/StateClassic.png" "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources"0#
+
+CCpResource build/Release/flWii.app/Contents/Resources/StateNunchuk.png Resources/StateNunchuk.png
+r0
+
+CCpResource build/Release/flWii.app/Contents/Resources/StateNunchuk.png StateNunchuk.png
+s312030592.230445
+e312030592.426790
+r1
+xCpResource
+xbuild/Release/flWii.app/Contents/Resources/StateNunchuk.png
+xStateNunchuk.png
+lSLF07#2@21"Copy StateNunchuk.png312030592#312030592#0(0"0(0#0#66"/Users/kojikimura/Desktop/Cocoa Application/flWii/StateNunchuk.png8622335264#392"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/kojikimura/Desktop/Cocoa Application/flWii/StateNunchuk.png" "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources"0#
+
+CCpResource build/Release/flWii.app/Contents/Resources/StateWii.png Resources/StateWii.png
+r0
+
+CCpResource build/Release/flWii.app/Contents/Resources/StateWii.png StateWii.png
+s312030592.231220
+e312030592.426896
+r1
+xCpResource
+xbuild/Release/flWii.app/Contents/Resources/StateWii.png
+xStateWii.png
+lSLF07#2@17"Copy StateWii.png312030592#312030592#0(0"0(0#0#62"/Users/kojikimura/Desktop/Cocoa Application/flWii/StateWii.png8622189472#388"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/kojikimura/Desktop/Cocoa Application/flWii/StateWii.png" "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources"0#
+
+CCpResource build/Release/flWii.app/Contents/Resources/flWii.icns Resources/flWii.icns
+r0
+
+CCpResource build/Release/flWii.app/Contents/Resources/flWii.icns flWii.icns
+s312030592.233220
+e312030592.490649
+r1
+xCpResource
+xbuild/Release/flWii.app/Contents/Resources/flWii.icns
+xflWii.icns
+lSLF07#2@15"Copy flWii.icns312030592#312030592#0(0"0(0#0#60"/Users/kojikimura/Desktop/Cocoa Application/flWii/flWii.icns8621706048#386"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/kojikimura/Desktop/Cocoa Application/flWii/flWii.icns" "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources"0#
+
+CCreateUniversalBinary "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/MacOS/flWii" normal "ppc i386"
+s312030607.882383
+e312030607.978432
+r1
+xCreateUniversalBinary
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/MacOS/flWii
+xnormal
+xppc i386
+lSLF07#2@84"CreateUniversalBinary build/Release/flWii.app/Contents/MacOS/flWii normal "ppc i386"312030607#312030607#0(0"0(0#0#58"/Users/kojikimura/Desktop/Cocoa Application/flWii/ppc i3868621925472#421"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    /usr/bin/lipo -create "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii" "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii" -output "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/MacOS/flWii"0#
+
+CCreateUniversalBinary "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/MacOS/flWii" normal "x86_64 i386 ppc"
+s312350518.354549
+e312350518.392516
+r1
+xCreateUniversalBinary
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/MacOS/flWii
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@91"CreateUniversalBinary build/Release/flWii.app/Contents/MacOS/flWii normal "x86_64 i386 ppc"312350518#312350518#0(0"0(0#0#65"/Users/kojikimura/Desktop/Cocoa Application/flWii/x86_64 i386 ppc8607260032#539"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    /usr/bin/lipo -create "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii" "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii" "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii" -output "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/MacOS/flWii"0#
+
+CCreateUniversalBinary /Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/MacOS/flWii normal "x86_64 i386 ppc"
+s312367918.240780
+e312367918.246140
+r1
+xCreateUniversalBinary
+x/Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/MacOS/flWii
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@91"CreateUniversalBinary build/Release/flWii.app/Contents/MacOS/flWii normal "x86_64 i386 ppc"312367918#312367918#0(0"0(0#0#49"/Users/kojikimura/git/flWii/Cocoa/x86_64 i386 ppc8596528512#449"    cd /Users/kojikimura/git/flWii/Cocoa    /usr/bin/lipo -create /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii -output /Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/MacOS/flWii0#
+
+CCreateUniversalBinary /Users/kojikimura/git/flWii/build/Release/flWii.app/Contents/MacOS/flWii normal "x86_64 i386 ppc"
+s312367724.748907
+e312367724.751722
+r1
+xCreateUniversalBinary
+x/Users/kojikimura/git/flWii/build/Release/flWii.app/Contents/MacOS/flWii
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@91"CreateUniversalBinary build/Release/flWii.app/Contents/MacOS/flWii normal "x86_64 i386 ppc"312367724#312367724#0(0"0(0#0#43"/Users/kojikimura/git/flWii/x86_64 i386 ppc8610851776#419"    cd /Users/kojikimura/git/flWii    /usr/bin/lipo -create /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii -output /Users/kojikimura/git/flWii/build/Release/flWii.app/Contents/MacOS/flWii0#
+
+CGenerateDSYMFile "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app.dSYM" "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/MacOS/flWii"
+s312350518.392630
+e312350518.559221
+r1
+xGenerateDSYMFile
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app.dSYM
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/MacOS/flWii
+lSLF07#2@90"GenerateDSYMFile build/Release/flWii.app.dSYM build/Release/flWii.app/Contents/MacOS/flWii312350518#312350518#0(0"0(0#0#94"/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/MacOS/flWii8606587360#272"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    /Developer/usr/bin/dsymutil "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/MacOS/flWii" -o "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app.dSYM"0#
+
+CGenerateDSYMFile /Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app.dSYM /Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/MacOS/flWii
+s312367918.246234
+e312367918.373862
+r1
+xGenerateDSYMFile
+x/Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app.dSYM
+x/Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/MacOS/flWii
+lSLF07#2@90"GenerateDSYMFile build/Release/flWii.app.dSYM build/Release/flWii.app/Contents/MacOS/flWii312367918#312367918#0(0"0(0#0#78"/Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/MacOS/flWii8590453760#218"    cd /Users/kojikimura/git/flWii/Cocoa    /Developer/usr/bin/dsymutil /Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/MacOS/flWii -o /Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app.dSYM0#
+
+CGenerateDSYMFile /Users/kojikimura/git/flWii/build/Release/flWii.app.dSYM /Users/kojikimura/git/flWii/build/Release/flWii.app/Contents/MacOS/flWii
+s312367724.751784
+e312367724.901063
+r1
+xGenerateDSYMFile
+x/Users/kojikimura/git/flWii/build/Release/flWii.app.dSYM
+x/Users/kojikimura/git/flWii/build/Release/flWii.app/Contents/MacOS/flWii
+lSLF07#2@90"GenerateDSYMFile build/Release/flWii.app.dSYM build/Release/flWii.app/Contents/MacOS/flWii312367724#312367724#0(0"0(0#0#72"/Users/kojikimura/git/flWii/build/Release/flWii.app/Contents/MacOS/flWii8609903136#200"    cd /Users/kojikimura/git/flWii    /Developer/usr/bin/dsymutil /Users/kojikimura/git/flWii/build/Release/flWii.app/Contents/MacOS/flWii -o /Users/kojikimura/git/flWii/build/Release/flWii.app.dSYM0#
+
+CLd "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/MacOS/flWii" normal x86_64
+r0
+
+CLd "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii" normal i386
+s312350512.309758
+e312350512.965153
+r1
+xLd
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii
+xnormal
+xi386
+lSLF07#2@118"Link /Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii312350512#312350512#0(0"0(0#0#0"8607459424#641"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" "-F/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" -filelist "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -framework WiiRemote -o "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii"0#
+
+CLd "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii" normal ppc
+s312350518.049937
+e312350518.354459
+r1
+xLd
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii
+xnormal
+xppc
+lSLF07#2@117"Link /Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii312350518#312350518#0(0"0(0#0#0"8606958656#638"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" "-F/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" -filelist "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -framework WiiRemote -o "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii"0#
+
+CLd "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii" normal x86_64
+s312350505.620289
+e312350511.255222
+r1
+xLd
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii
+xnormal
+xx86_64
+lSLF07#2@120"Link /Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii312350505#312350511#0(0"0(0#0#0"8606383776#647"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" "-F/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" -filelist "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -framework WiiRemote -o "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii"0#
+
+CLd /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii normal i386
+s312367917.411105
+e312367917.481487
+r1
+xLd
+x/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii
+xnormal
+xi386
+lSLF07#2@102"Link /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii312367917#312367917#0(0"0(0#0#0"8602665312#598"    cd /Users/kojikimura/git/flWii/Cocoa    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/Frameworks -filelist /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework WiiRemote -o /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii0#
+
+CLd /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii normal ppc
+s312367918.190078
+e312367918.240691
+r1
+xLd
+x/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii
+xnormal
+xppc
+lSLF07#2@101"Link /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii312367918#312367918#0(0"0(0#0#0"8603774624#595"    cd /Users/kojikimura/git/flWii/Cocoa    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/Frameworks -filelist /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework WiiRemote -o /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii0#
+
+CLd /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii normal x86_64
+s312367915.886522
+e312367916.887030
+r1
+xLd
+x/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii
+xnormal
+xx86_64
+lSLF07#2@104"Link /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii312367915#312367916#0(0"0(0#0#0"8603257152#604"    cd /Users/kojikimura/git/flWii/Cocoa    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/Frameworks -filelist /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework WiiRemote -o /Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii0#
+
+CLd /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii normal i386
+s312367724.576494
+e312367724.603431
+r1
+xLd
+x/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii
+xnormal
+xi386
+lSLF07#2@96"Link /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii312367724#312367724#0(0"0(0#0#0"8612601664#521"    cd /Users/kojikimura/git/flWii    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/kojikimura/git/flWii/build/Release -F/Users/kojikimura/git/flWii/build/Release -filelist /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework WiiRemote -o /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii0#
+
+CLd /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii normal ppc
+s312367724.722821
+e312367724.748812
+r1
+xLd
+x/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii
+xnormal
+xppc
+lSLF07#2@95"Link /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii312367724#312367724#0(0"0(0#0#0"8590396704#518"    cd /Users/kojikimura/git/flWii    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/kojikimura/git/flWii/build/Release -F/Users/kojikimura/git/flWii/build/Release -filelist /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework WiiRemote -o /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii0#
+
+CLd /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii normal x86_64
+s312367724.577285
+e312367724.605843
+r1
+xLd
+x/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii
+xnormal
+xx86_64
+lSLF07#2@98"Link /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii312367724#312367724#0(0"0(0#0#0"8612472928#527"    cd /Users/kojikimura/git/flWii    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/kojikimura/git/flWii/build/Release -F/Users/kojikimura/git/flWii/build/Release -filelist /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework WiiRemote -o /Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii0#
+
+CProcessInfoPlistFile "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Info.plist" Info.plist
+s312030592.224822
+e312030592.227507
+r1
+xProcessInfoPlistFile
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist312030592#312030592#0(0"0(0#0#60"/Users/kojikimura/Desktop/Cocoa Application/flWii/Info.plist8625066400#341"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Info.plist"0#
+
+CProcessInfoPlistFile /Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app/Contents/Info.plist Info.plist
+r0
+
+CProcessInfoPlistFile /Users/kojikimura/git/flWii/build/Release/flWii.app/Contents/Info.plist Info.plist
+r0
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-aeqdxtafgbfpvtfjxflryyzfcupf/flWii_Prefix.pch.gch flWii_Prefix.pch normal x86_64 c com.apple.compilers.gcc.4_2
+s312032134.568430
+e312032135.540359
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-aeqdxtafgbfpvtfjxflryyzfcupf/flWii_Prefix.pch.gch
+xflWii_Prefix.pch
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile flWii_Prefix.pch312032134#312032135#0(0"0(0#0#66"/Users/kojikimura/Desktop/Cocoa Application/flWii/flWii_Prefix.pch8624935104#1070"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/flWii.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources/x86_64" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources" -c "/Users/kojikimura/Desktop/Cocoa Application/flWii/flWii_Prefix.pch" -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-aeqdxtafgbfpvtfjxflryyzfcupf/flWii_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-amgodegibkjtayaavrosegojfnke/flWii_Prefix.pch.gch flWii_Prefix.pch normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-avarvbwepfngawbpcxgsxwgifknc/flWii_Prefix.pch.gch flWii_Prefix.pch normal ppc c com.apple.compilers.gcc.4_2
+s311354668.840501
+e311354669.552529
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-avarvbwepfngawbpcxgsxwgifknc/flWii_Prefix.pch.gch
+xflWii_Prefix.pch
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile flWii_Prefix.pch311354668#311354669#0(0"0(0#0#66"/Users/kojikimura/Desktop/Cocoa Application/flWii/flWii_Prefix.pch8627970560#1074"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/flWii.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources/ppc" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources" -c "/Users/kojikimura/Desktop/Cocoa Application/flWii/flWii_Prefix.pch" -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-avarvbwepfngawbpcxgsxwgifknc/flWii_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-bacsksxsynxjhqcoodmlfitlfncb/flWii_Prefix.pch.gch flWii_Prefix.pch normal x86_64 c com.apple.compilers.gcc.4_2
+s312367905.171116
+e312367905.234537
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-bacsksxsynxjhqcoodmlfitlfncb/flWii_Prefix.pch.gch
+xflWii_Prefix.pch
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile flWii_Prefix.pch312367905#312367905#0(0"0(0#0#50"/Users/kojikimura/git/flWii/Cocoa/flWii_Prefix.pch8606024480#991"    cd /Users/kojikimura/git/flWii/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/Frameworks -I/Users/kojikimura/git/flWii/Cocoa/build/Release/include -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources/x86_64 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources -c /Users/kojikimura/git/flWii/Cocoa/flWii_Prefix.pch -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-bacsksxsynxjhqcoodmlfitlfncb/flWii_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-bhynqpsmhlpyshhbkmwzragmmvds/flWii_Prefix.pch.gch flWii_Prefix.pch normal x86_64 c com.apple.compilers.gcc.4_2
+s312367607.795270
+e312367607.880094
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-bhynqpsmhlpyshhbkmwzragmmvds/flWii_Prefix.pch.gch
+xflWii_Prefix.pch
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile flWii_Prefix.pch312367607#312367607#0(0"0(0#0#44"/Users/kojikimura/git/flWii/flWii_Prefix.pch8595859072#902"    cd /Users/kojikimura/git/flWii    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/build/Release -I/Users/kojikimura/git/flWii/build/Release/include -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources/x86_64 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources -c /Users/kojikimura/git/flWii/flWii_Prefix.pch -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-bhynqpsmhlpyshhbkmwzragmmvds/flWii_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-bnbhxxdjmzgtnygeuarpuclukutm/flWii_Prefix.pch.gch flWii_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312367905.167898
+e312367910.397577
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-bnbhxxdjmzgtnygeuarpuclukutm/flWii_Prefix.pch.gch
+xflWii_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile flWii_Prefix.pch312367905#312367910#0(0"0(0#0#50"/Users/kojikimura/git/flWii/Cocoa/flWii_Prefix.pch7378429254040119296#1001"    cd /Users/kojikimura/git/flWii/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/Frameworks -I/Users/kojikimura/git/flWii/Cocoa/build/Release/include -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources/x86_64 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources -c /Users/kojikimura/git/flWii/Cocoa/flWii_Prefix.pch -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-bnbhxxdjmzgtnygeuarpuclukutm/flWii_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-boqnmrfghprwecaknvjqpcfyfjye/flWii_Prefix.pch.gch flWii_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+s311354668.842144
+e311354669.241877
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-boqnmrfghprwecaknvjqpcfyfjye/flWii_Prefix.pch.gch
+xflWii_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile flWii_Prefix.pch311354668#311354669#0(0"0(0#0#66"/Users/kojikimura/Desktop/Cocoa Application/flWii/flWii_Prefix.pch8623473088#1066"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/flWii.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources/i386" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources" -c "/Users/kojikimura/Desktop/Cocoa Application/flWii/flWii_Prefix.pch" -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-boqnmrfghprwecaknvjqpcfyfjye/flWii_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-brulllgulwazchddzlctnzxxuzwf/flWii_Prefix.pch.gch flWii_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312367607.794501
+e312367612.199815
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-brulllgulwazchddzlctnzxxuzwf/flWii_Prefix.pch.gch
+xflWii_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile flWii_Prefix.pch312367607#312367612#0(0"0(0#0#44"/Users/kojikimura/git/flWii/flWii_Prefix.pch8596849024#912"    cd /Users/kojikimura/git/flWii    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/build/Release -I/Users/kojikimura/git/flWii/build/Release/include -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources/x86_64 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources -c /Users/kojikimura/git/flWii/flWii_Prefix.pch -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-brulllgulwazchddzlctnzxxuzwf/flWii_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-btldeybfxdfzbmhgnnnzrestpqnq/flWii_Prefix.pch.gch flWii_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s312032134.567187
+e312032143.930959
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-btldeybfxdfzbmhgnnnzrestpqnq/flWii_Prefix.pch.gch
+xflWii_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile flWii_Prefix.pch312032134#312032143#0(0"0(0#0#66"/Users/kojikimura/Desktop/Cocoa Application/flWii/flWii_Prefix.pch8621463584#1080"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/flWii.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources/x86_64" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources" -c "/Users/kojikimura/Desktop/Cocoa Application/flWii/flWii_Prefix.pch" -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-btldeybfxdfzbmhgnnnzrestpqnq/flWii_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-burwtsdieuzqdndezlztmtghabjp/flWii_Prefix.pch.gch flWii_Prefix.pch normal ppc c com.apple.compilers.gcc.4_2
+s312367612.768098
+e312367612.909187
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-burwtsdieuzqdndezlztmtghabjp/flWii_Prefix.pch.gch
+xflWii_Prefix.pch
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile flWii_Prefix.pch312367612#312367612#0(0"0(0#0#44"/Users/kojikimura/git/flWii/flWii_Prefix.pch8612889952#906"    cd /Users/kojikimura/git/flWii    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/build/Release -I/Users/kojikimura/git/flWii/build/Release/include -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources/ppc -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources -c /Users/kojikimura/git/flWii/flWii_Prefix.pch -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-burwtsdieuzqdndezlztmtghabjp/flWii_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-carejavsznnhjifocbcenowwlhnx/flWii_Prefix.pch.gch flWii_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s312367910.822304
+e312367914.563788
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-carejavsznnhjifocbcenowwlhnx/flWii_Prefix.pch.gch
+xflWii_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile flWii_Prefix.pch312367910#312367914#0(0"0(0#0#50"/Users/kojikimura/git/flWii/Cocoa/flWii_Prefix.pch8605711424#1005"    cd /Users/kojikimura/git/flWii/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/Frameworks -I/Users/kojikimura/git/flWii/Cocoa/build/Release/include -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources/ppc -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources -c /Users/kojikimura/git/flWii/Cocoa/flWii_Prefix.pch -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-carejavsznnhjifocbcenowwlhnx/flWii_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-cezkgulgqdhzushhejmnfkqxqqly/flWii_Prefix.pch.gch flWii_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s311343641.864182
+e311343651.335098
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-cezkgulgqdhzushhejmnfkqxqqly/flWii_Prefix.pch.gch
+xflWii_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile flWii_Prefix.pch311343641#311343651#0(0"0(0#0#66"/Users/kojikimura/Desktop/Cocoa Application/flWii/flWii_Prefix.pch8611590176#1076"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/flWii.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources/i386" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources" -c "/Users/kojikimura/Desktop/Cocoa Application/flWii/flWii_Prefix.pch" -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-cezkgulgqdhzushhejmnfkqxqqly/flWii_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-cpmquouoypqsovcafvyffdpyffnv/flWii_Prefix.pch.gch flWii_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s312367607.880200
+e312367612.767968
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-cpmquouoypqsovcafvyffdpyffnv/flWii_Prefix.pch.gch
+xflWii_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile flWii_Prefix.pch312367607#312367612#0(0"0(0#0#44"/Users/kojikimura/git/flWii/flWii_Prefix.pch8604240320#908"    cd /Users/kojikimura/git/flWii    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/build/Release -I/Users/kojikimura/git/flWii/build/Release/include -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources/i386 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources -c /Users/kojikimura/git/flWii/flWii_Prefix.pch -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-cpmquouoypqsovcafvyffdpyffnv/flWii_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-cuxujivlkmyxdmcmcimgsfqnysap/flWii_Prefix.pch.gch flWii_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s312367905.234644
+e312367911.698347
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-cuxujivlkmyxdmcmcimgsfqnysap/flWii_Prefix.pch.gch
+xflWii_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile flWii_Prefix.pch312367905#312367911#0(0"0(0#0#50"/Users/kojikimura/git/flWii/Cocoa/flWii_Prefix.pch8605828576#997"    cd /Users/kojikimura/git/flWii/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/Frameworks -I/Users/kojikimura/git/flWii/Cocoa/build/Release/include -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources/i386 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources -c /Users/kojikimura/git/flWii/Cocoa/flWii_Prefix.pch -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-cuxujivlkmyxdmcmcimgsfqnysap/flWii_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-dugekrzqpwygdsghnnvqntfumnwf/flWii_Prefix.pch.gch flWii_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-dyrfpxvsilmlocfvsjdrgxzzxgza/flWii_Prefix.pch.gch flWii_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s312367612.403625
+e312367615.313794
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-dyrfpxvsilmlocfvsjdrgxzzxgza/flWii_Prefix.pch.gch
+xflWii_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile flWii_Prefix.pch312367612#312367615#0(0"0(0#0#44"/Users/kojikimura/git/flWii/flWii_Prefix.pch8596859104#916"    cd /Users/kojikimura/git/flWii    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/build/Release -I/Users/kojikimura/git/flWii/build/Release/include -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources/ppc -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources -c /Users/kojikimura/git/flWii/flWii_Prefix.pch -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-dyrfpxvsilmlocfvsjdrgxzzxgza/flWii_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-edszctgpwfcczidnwpgjnehrxxvj/flWii_Prefix.pch.gch flWii_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+s312367910.397749
+e312367910.822195
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-edszctgpwfcczidnwpgjnehrxxvj/flWii_Prefix.pch.gch
+xflWii_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile flWii_Prefix.pch312367910#312367910#0(0"0(0#0#50"/Users/kojikimura/git/flWii/Cocoa/flWii_Prefix.pch8606219744#987"    cd /Users/kojikimura/git/flWii/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/Frameworks -I/Users/kojikimura/git/flWii/Cocoa/build/Release/include -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources/i386 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources -c /Users/kojikimura/git/flWii/Cocoa/flWii_Prefix.pch -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-edszctgpwfcczidnwpgjnehrxxvj/flWii_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-ekxzqfxfdcxlmudemtpvixoxviyr/flWii_Prefix.pch.gch flWii_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-etnlcqeotcczjhapfnhpvucesvuv/flWii_Prefix.pch.gch flWii_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-fbxuwlyskdvqryahpkijmcujcoeu/flWii_Prefix.pch.gch flWii_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-gknyovsgijznjphefhtpkymaxhgy/flWii_Prefix.pch.gch flWii_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+s312367612.199976
+e312367612.403513
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-gknyovsgijznjphefhtpkymaxhgy/flWii_Prefix.pch.gch
+xflWii_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile flWii_Prefix.pch312367612#312367612#0(0"0(0#0#44"/Users/kojikimura/git/flWii/flWii_Prefix.pch8610633888#898"    cd /Users/kojikimura/git/flWii    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/build/Release -I/Users/kojikimura/git/flWii/build/Release/include -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources/i386 -I/Users/kojikimura/git/flWii/build/flWii.build/Release/flWii.build/DerivedSources -c /Users/kojikimura/git/flWii/flWii_Prefix.pch -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-gknyovsgijznjphefhtpkymaxhgy/flWii_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-gwuptqpuvgvqglfxvbkyvcullmmr/flWii_Prefix.pch.gch flWii_Prefix.pch normal ppc c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-gynpfwrstivofbeoecxhaauuwqxk/flWii_Prefix.pch.gch flWii_Prefix.pch normal ppc c com.apple.compilers.gcc.4_2
+s312367911.698455
+e312367912.043569
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-gynpfwrstivofbeoecxhaauuwqxk/flWii_Prefix.pch.gch
+xflWii_Prefix.pch
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile flWii_Prefix.pch312367911#312367912#0(0"0(0#0#50"/Users/kojikimura/git/flWii/Cocoa/flWii_Prefix.pch8605864768#995"    cd /Users/kojikimura/git/flWii/Cocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/flWii.hmap -F/Users/kojikimura/git/flWii/Cocoa/build/Release -F/Users/kojikimura/git/flWii/Cocoa/Frameworks -I/Users/kojikimura/git/flWii/Cocoa/build/Release/include -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources/ppc -I/Users/kojikimura/git/flWii/Cocoa/build/flWii.build/Release/flWii.build/DerivedSources -c /Users/kojikimura/git/flWii/Cocoa/flWii_Prefix.pch -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-gynpfwrstivofbeoecxhaauuwqxk/flWii_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-hiyfgvwxvdotxgclfsftigndamfx/flWii_Prefix.pch.gch flWii_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s311343641.862460
+e311343651.350680
+r1
+xProcessPCH
+x/var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-hiyfgvwxvdotxgclfsftigndamfx/flWii_Prefix.pch.gch
+xflWii_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile flWii_Prefix.pch311343641#311343651#0(0"0(0#0#66"/Users/kojikimura/Desktop/Cocoa Application/flWii/flWii_Prefix.pch8620595392#1084"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/flWii.hmap" "-F/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/include" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources/ppc" "-I/Users/kojikimura/Desktop/Cocoa Application/flWii/build/flWii.build/Release/flWii.build/DerivedSources" -c "/Users/kojikimura/Desktop/Cocoa Application/flWii/flWii_Prefix.pch" -o /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-hiyfgvwxvdotxgclfsftigndamfx/flWii_Prefix.pch.gch0#
+
+CStripNIB "/Users/kojikimura/Desktop/Cocoa Application/flWii/English.lproj/MainMenu.nib"
+s312167796.956816
+e312167797.612988
+r1
+xStripNIB
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/English.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB English.lproj/MainMenu.nib312167796#312167797#0(0"0(0#0#76"/Users/kojikimura/Desktop/Cocoa Application/flWii/English.lproj/MainMenu.nib8634910592#334"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    /Developer/usr/bin/ibtool --strip "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app/Contents/Resources/English.lproj/MainMenu.nib" --output-format human-readable-text "/Users/kojikimura/Desktop/Cocoa Application/flWii/English.lproj/MainMenu.nib"0#
+
+CStripNIB /Users/kojikimura/git/flWii/Cocoa/English.lproj/MainMenu.nib
+r0
+
+CStripNIB /Users/kojikimura/git/flWii/English.lproj/MainMenu.nib
+r0
+
+CTouch "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app"
+s312350518.559338
+e312350518.562530
+r1
+xTouch
+x/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app
+lSLF07#2@79"Touch /Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app312350518#312350518#0(0"0(0#0#0"8605352256#157"    cd "/Users/kojikimura/Desktop/Cocoa Application/flWii"    /usr/bin/touch -c "/Users/kojikimura/Desktop/Cocoa Application/flWii/build/Release/flWii.app"0#
+
+CTouch /Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app
+s312367918.373946
+e312367918.376400
+r1
+xTouch
+x/Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app
+lSLF07#2@63"Touch /Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app312367918#312367918#0(0"0(0#0#0"8606358112#121"    cd /Users/kojikimura/git/flWii/Cocoa    /usr/bin/touch -c /Users/kojikimura/git/flWii/Cocoa/build/Release/flWii.app0#
+
+CTouch /Users/kojikimura/git/flWii/build/Release/flWii.app
+s312367724.901147
+e312367724.903297
+r1
+xTouch
+x/Users/kojikimura/git/flWii/build/Release/flWii.app
+lSLF07#2@57"Touch /Users/kojikimura/git/flWii/build/Release/flWii.app312367724#312367724#0(0"0(0#0#0"8612807168#109"    cd /Users/kojikimura/git/flWii    /usr/bin/touch -c /Users/kojikimura/git/flWii/build/Release/flWii.app0#
+
