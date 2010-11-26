@@ -1,10 +1,3 @@
-00000000000000000000000000000000 bb53c51e8523c7f4468f749ff797ab35 ffffffffffffffffffffffffffffffff 102 /Users/kojikimura/git/flWii/src/Cocoa/build/Release/flWii.app.dSYM
-f0e47bee0c103cae088946596f54e41f 0e09237ef62ae80ad4a7022639d9455a ffffffffffffffffffffffffffffffff 102 /Users/kojikimura/git/flWii/src/Cocoa/build/Release/flWii.app
-000000004cee2a4e00000000000000b6 36ee2eebba73e324f92f4d7facb06eee ffffffffffffffffffffffffffffffff 182 /Users/kojikimura/git/flWii/src/Cocoa/build/Release/flWii.app/Contents/Resources/English.lproj/InfoPlist.strings
-e6b41ccda4e8aa694caa2212793c6bcf 18e04c7602da0a25c17147b8f50917b9 ffffffffffffffffffffffffffffffff 116284 /Users/kojikimura/git/flWii/src/Cocoa/build/Release/flWii.app/Contents/MacOS/flWii
-e1c23e6e96702b63c1ef79f8a00e99c6 0b4d3fae760bf6f41a4cc717e74cc444 ffffffffffffffffffffffffffffffff 34364 /Users/kojikimura/git/flWii/src/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii
-482f11acf8e02791153fed76f0b3aeb7 c7349d3883aec5a7764ad01b9952df3e ffffffffffffffffffffffffffffffff 35312 /Users/kojikimura/git/flWii/src/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii
-d0ebce7d3ef6f304b08133eb2553a8c2 53cb5fe4012b66cc44fd927b72ccef06 ffffffffffffffffffffffffffffffff 40560 /Users/kojikimura/git/flWii/src/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii
 82a68bd122a8ce263e36b67b83a4e793 1e7cfeb501b17f8fcafe0b801158688f ffffffffffffffffffffffffffffffff 2124 /Users/kojikimura/git/flWii/src/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/ppc/endian.o
 4af5a187d451a0315e1ef9dbe75b0b48 4060398edbc44f00df481aca70aea9e7 ffffffffffffffffffffffffffffffff 2060 /Users/kojikimura/git/flWii/src/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/i386/endian.o
 eeccb0a364dc8e0b5ad519c8bc09293b ab41791f2d22e49247750f3c47540617 ffffffffffffffffffffffffffffffff 2612 /Users/kojikimura/git/flWii/src/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/endian.o
@@ -20,10 +13,16 @@ bf59c1b1e90dc634a89ceaeaf91eaf84 231a090fbc541a1db72effd66dbb8832 ffffffffffffff
 672a7e0ee3b2b171d625c38162f01ac7 1d81328d98e1f9552706a7b74fa305f2 ffffffffffffffffffffffffffffffff 5288 /Users/kojikimura/git/flWii/src/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/ppc/main.o
 74b658ef50efd13ae119a0732b8cac7b ac4911f146713f8e53a3715a8f08af29 ffffffffffffffffffffffffffffffff 5168 /Users/kojikimura/git/flWii/src/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/i386/main.o
 bf59c1b1a629e7afa89ceaeaf91ee96c 006b01d856dbbe0db988ef2792c9119a ffffffffffffffffffffffffffffffff 5640 /Users/kojikimura/git/flWii/src/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/main.o
+00000000000000000000000000000000 bb53c51e8523c7f4468f749ff797ab35 ffffffffffffffffffffffffffffffff 102 /Users/kojikimura/git/flWii/src/Cocoa/build/Release/flWii.app.dSYM
+f0e47bee0c103cae088946596f54e41f 0e09237ef62ae80ad4a7022639d9455a ffffffffffffffffffffffffffffffff 102 /Users/kojikimura/git/flWii/src/Cocoa/build/Release/flWii.app
+e6b41ccda4e8aa694caa2212793c6bcf 18e04c7602da0a25c17147b8f50917b9 ffffffffffffffffffffffffffffffff 116284 /Users/kojikimura/git/flWii/src/Cocoa/build/Release/flWii.app/Contents/MacOS/flWii
+e1c23e6e96702b63c1ef79f8a00e99c6 0b4d3fae760bf6f41a4cc717e74cc444 ffffffffffffffffffffffffffffffff 34364 /Users/kojikimura/git/flWii/src/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/ppc/flWii
 000000000c1573770000000000000168 82a68bd1690724663e36b67b83a4f10a ffffffffffffffffffffffffffffffff 1950064 /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-bxicjnjwsmtpeubeljggkcyxvdgc/flWii_Prefix.pch.gch
 000000000c1573770000000000000168 672a7e0ea437d7cad625c38162f00bb1 ffffffffffffffffffffffffffffffff 49975504 /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-eczrvfsgcwvypfaxglwkvupfoxbj/flWii_Prefix.pch.gch
+482f11acf8e02791153fed76f0b3aeb7 c7349d3883aec5a7764ad01b9952df3e ffffffffffffffffffffffffffffffff 35312 /Users/kojikimura/git/flWii/src/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/i386/flWii
 000000000c1573770000000000000168 4af5a1879ffe4a715e1ef9dbe75b1dd1 ffffffffffffffffffffffffffffffff 2187632 /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-eomvlegrzzqjqwanneczmfptmpvi/flWii_Prefix.pch.gch
 000000000c1573770000000000000168 74b658ef176ab781e119a0732b8cbd0d ffffffffffffffffffffffffffffffff 52740496 /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-gprzqmuvzosdsyagqfiaphmzewye/flWii_Prefix.pch.gch
+d0ebce7d3ef6f304b08133eb2553a8c2 53cb5fe4012b66cc44fd927b72ccef06 ffffffffffffffffffffffffffffffff 40560 /Users/kojikimura/git/flWii/src/Cocoa/build/flWii.build/Release/flWii.build/Objects-normal/x86_64/flWii
 000000000c1573770000000000000168 eeccb0a32f73644b5ad519c8bc093fa2 ffffffffffffffffffffffffffffffff 2195824 /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-apejxmidyptivkfrhewpsosaiimm/flWii_Prefix.pch.gch
 000000000c1573770000000000000168 bf59c1b1e1ac8114a89ceaeaf91ef81a ffffffffffffffffffffffffffffffff 49819920 /var/folders/1V/1VNhfmjaFYuxkpPbqnaSp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/flWii_Prefix-fzmepqrczqlhnhgsopvdmkoptaae/flWii_Prefix.pch.gch
 ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 40051 /Users/kojikimura/git/flWii/src/Cocoa/build/Release/flWii.app/Contents/Resources/flWii.icns
@@ -35,6 +34,7 @@ ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffff
 ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 532 /Users/kojikimura/git/flWii/src/Cocoa/build/Release/flWii.app/Contents/Resources/Number3.png
 ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 478 /Users/kojikimura/git/flWii/src/Cocoa/build/Release/flWii.app/Contents/Resources/Number2.png
 ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 228 /Users/kojikimura/git/flWii/src/Cocoa/build/Release/flWii.app/Contents/Resources/Number1.png
+000000004cee2a4e00000000000000b6 36ee2eebba73e324f92f4d7facb06eee ffffffffffffffffffffffffffffffff 182 /Users/kojikimura/git/flWii/src/Cocoa/build/Release/flWii.app/Contents/Resources/English.lproj/InfoPlist.strings
 ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 17391 /Users/kojikimura/git/flWii/src/Cocoa/build/Release/flWii.app/Contents/Resources/English.lproj/MainMenu.nib
 ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 8 /Users/kojikimura/git/flWii/src/Cocoa/build/Release/flWii.app/Contents/PkgInfo
 ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 812 /Users/kojikimura/git/flWii/src/Cocoa/build/Release/flWii.app/Contents/Info.plist

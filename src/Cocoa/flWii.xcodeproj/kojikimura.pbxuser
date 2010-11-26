@@ -2,7 +2,7 @@
 {
 	089C165DFE840E0CC02AAC07 /* English */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1084, 770}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1084, 765}}";
 			sepNavSelRange = "{82, 0}";
 			sepNavVisRange = "{0, 90}";
 			sepNavWindowFrame = "{{61, 136}, {1184, 995}}";
@@ -107,10 +107,11 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 312369464;
-			PBXWorkspaceStateSaveDate = 312369464;
+			PBXPerProjectTemplateStateSaveDate = 312399966;
+			PBXWorkspaceStateSaveDate = 312399966;
 		};
 		perUserProjectItems = {
+			E904C1CD129ED87300D98879 /* PBXTextBookmark */ = E904C1CD129ED87300D98879 /* PBXTextBookmark */;
 			E9217AB0129E63E00067AB77 /* PBXTextBookmark */ = E9217AB0129E63E00067AB77 /* PBXTextBookmark */;
 			E9217AB1129E63E00067AB77 /* PlistBookmark */ = E9217AB1129E63E00067AB77 /* PlistBookmark */;
 			E9217AB2129E63E00067AB77 /* PBXTextBookmark */ = E9217AB2129E63E00067AB77 /* PBXTextBookmark */;
@@ -118,7 +119,6 @@
 			E9D2243C129E5A9900E6997A /* PBXBookmark */ = E9D2243C129E5A9900E6997A /* PBXBookmark */;
 			E9E93762129916E000E8A59A /* PBXTextBookmark */ = E9E93762129916E000E8A59A /* PBXTextBookmark */;
 			E9E937FE12992FA100E8A59A /* PBXTextBookmark */ = E9E937FE12992FA100E8A59A /* PBXTextBookmark */;
-			E9E9387F12993EB300E8A59A /* PBXTextBookmark */ = E9E9387F12993EB300E8A59A /* PBXTextBookmark */;
 			E9FE1B3D1299EF2E009F2D16 /* PBXTextBookmark */ = E9FE1B3D1299EF2E009F2D16 /* PBXTextBookmark */;
 		};
 		sourceControlManager = E99A0105128210B200496CDB /* Source Control */;
@@ -137,6 +137,16 @@
 		executables = (
 			E99A00F41282109F00496CDB /* flWii */,
 		);
+	};
+	E904C1CD129ED87300D98879 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 3";
+		rLen = 0;
+		rLoc = 82;
+		rType = 0;
+		vrLen = 90;
+		vrLoc = 0;
 	};
 	E9217AB0129E63E00067AB77 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -157,7 +167,7 @@
 		);
 		name = /Users/kojikimura/git/flWii/src/Cocoa/Info.plist;
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
 	E9217AB2129E63E00067AB77 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -280,16 +290,6 @@
 		rLoc = 0;
 		rType = 0;
 		vrLen = 141;
-		vrLoc = 0;
-	};
-	E9E9387F12993EB300E8A59A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 089C165DFE840E0CC02AAC07 /* English */;
-		name = "InfoPlist.strings: 3";
-		rLen = 0;
-		rLoc = 74;
-		rType = 0;
-		vrLen = 90;
 		vrLoc = 0;
 	};
 	E9FE1B3D1299EF2E009F2D16 /* PBXTextBookmark */ = {

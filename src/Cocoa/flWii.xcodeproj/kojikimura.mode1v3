@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -275,9 +277,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>25</integer>
-									<integer>14</integer>
-									<integer>0</integer>
+									<integer>34</integer>
+									<integer>33</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -311,8 +312,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -330,7 +329,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E9217AB2129E63E00067AB77</string>
+										<string>E904C1CD129ED87300D98879</string>
 										<key>history</key>
 										<array>
 											<string>E934150D128EC54D008C46C0</string>
@@ -340,7 +339,7 @@
 											<string>E9D2243C129E5A9900E6997A</string>
 											<string>E9217AB0129E63E00067AB77</string>
 											<string>E9217AB1129E63E00067AB77</string>
-											<string>E9E9387F12993EB300E8A59A</string>
+											<string>E9217AB2129E63E00067AB77</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -352,14 +351,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1145, 802}}</string>
+								<string>{{0, 0}, {1145, 797}}</string>
 								<key>RubberWindowFrame</key>
 								<string>286 59 1542 1119 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>802pt</string>
+							<string>797pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -372,14 +371,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 807}, {1145, 271}}</string>
+								<string>{{0, 802}, {1145, 276}}</string>
 								<key>RubberWindowFrame</key>
 								<string>286 59 1542 1119 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>271pt</string>
+							<string>276pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -398,9 +397,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>E9217AB3129E63E00067AB77</string>
+				<string>E904C1CA129ED87300D98879</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>E9217AB4129E63E00067AB77</string>
+				<string>E904C1CB129ED87300D98879</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -538,10 +537,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>E9217ABD129E63E00067AB77</string>
-		<string>E9217ABE129E63E00067AB77</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>E99A010F128210BC00496CDB</string>
 		<string>/Users/kojikimura/git/flWii/src/Cocoa/flWii.xcodeproj</string>
 	</array>
@@ -623,7 +618,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>E99A010F128210BC00496CDB</string>
-				<string>E9217AB5129E63E00067AB77</string>
+				<string>E904C1CC129ED87300D98879</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
